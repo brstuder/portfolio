@@ -1,7 +1,7 @@
 Experience
 ----------
 
-**Kubecost**
+[**Kubecost**](/Kubecost)
 
 Technical Writer (July 2022 - Present)
 
@@ -13,18 +13,17 @@ readability, and other metrics to improve documentation quality
   * Implemented docs versioning of multiple product releases
 * Coordinated with developers and subject matter experts to create new product docs via GitHub,
 GitBook, Google Docs, and with Markdown, keeping up with monthly release schedule
-* Wrote on technical subjects including Kubernetes infrastructure, FinOps, cloud services, cost
-monitoring, APIs, and data security
+* Wrote on technical subjects including [Kubernetes infrastructure](/Kubecost/Diagrams/fed-etl-agg-arch.png), FinOps, cloud services, [cost monitoring](/Kubecost/Blog/getting-highly-accurate-cost-metrics.md), [APIs](/Kubecost/Docs/cloud-cost-trends-api.pdf), and data security
 * Implemented content management system GitBook and provided training to team members
 * Developed onboarding guide for beta cloud product, distributed to over 50 early access clients
 
-**MobiledgeX**
+[**MobiledgeX**](/MobiledgeX)
 
 Technical Writer (Aug 2021 - Apr 2022)
 
 * Created and edited technical documentation, including tutorials and product guides, for both developers
 and customers about edge cloud computing platform using Docs as Code workflow
-* Designed graphics showcasing platform features using Adobe Photoshop and Illustrator, conforming
+* [Designed graphics](/MobiledgeX/Graphics) showcasing platform features using Adobe Photoshop and Illustrator, conforming
 with brand standards
 * Wrote content style guide and maintained tens of documents to conform with terminology and
 formatting
