@@ -6,7 +6,7 @@ In the world of cost monitoring and visibility, having accurate data is vital fo
 
 ## Harnessing cloud provider on-demand pricing
 
-Without any configuration, Kubecost identifies the cloud service provider (CSP) source of clusters it has been installed on, and can then use public APIs from those CSPs to provide a starting point for its cost metrics. For AWS, this pricing is sourced from their [Price List Query API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-price-list-query-api.html). For Azure, users must enable this pricing query through [configuration of the Billing Rate Card API[(https://docs.kubecost.com/install-and-configure/install/cloud-integration/azure-out-of-cluster/azure-config)].
+Without any configuration, Kubecost identifies the cloud service provider (CSP) source of clusters it has been installed on, and can then use public APIs from those CSPs to provide a starting point for its cost metrics. For AWS, this pricing is sourced from their [Price List Query API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-price-list-query-api.html). For Azure, users must enable this pricing query through [configuration of the Billing Rate Card API](https://docs.kubecost.com/install-and-configure/install/cloud-integration/azure-out-of-cluster/azure-config).
 
 This initial step serves as a passive, and directionally accurate, foundation for delivering cost insights. However, users can enhance data accuracy by taking additional measures.
 
