@@ -3,7 +3,7 @@ Experience
 
 [**Kubecost**](/Kubecost)
 
-Technical Writer (July 2022 - Present)
+Technical Writer (July 2022 - Jun 2024)
 
 * Maintained ownership of public product docs and internal docs including company style guide, team
 onboarding guides, and standard operating procedures as company’s sole technical writer
