@@ -1,0 +1,3 @@
+This section includes specific samples of Kubecost documentation I created, or heavily edited to create user-friendly materials. These articles cover topics including product UI, product APIs, enabling specific product configs, and broader technical concepts relating to Kubernetes.
+
+Keep in mind these samples were exported directly via our static site generator GitBook, and so there may be slight errors in page formatting. Live versions of all documentation can be viewed at [Kubecost's docs website](www.docs.kubecost.com).
