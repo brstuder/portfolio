@@ -1,3 +1,10 @@
+Overview
+----------
+
+I am an experienced technical writer with 5 years of industry experience. My professional background has largely been in expanding Software-as-a-Service startups, building their documentation libraries and providing much needed resources and protocols for them. In my last two roles I have served as the sole TW in fast-paced startups, working closely with engineering teams and other high-level stakeholders. I have, as a result, been able to make executive decisions and operate indepenently to drive documentation quality. Beyon basic technical docs, I have designed style guides, contribution protocols, architecture diagrams, company graphics and icons, API tutorials, onboarding guides, and other instructional or information content.
+
+I believe keeping things shorts and putting myself in the user's perspective are essential to creating quality content.
+
 Experience
 ----------
 
