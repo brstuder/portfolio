@@ -1,3 +1,9 @@
+/* General style changes */
+
+:root {
+  --md-primary-fg-color: #3fb055; /*ignore primary palette color in mkdocs.yml*/
+}
+
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -5,7 +11,12 @@
   font-weight: bold;
 }
 
-/* The header color changes depending whether the user is in light or dark mode */
+table thead {
+  color: white;
+  background-color: #3fb055;
+}
+
+/* The page title color changes depending whether the user is in light or dark mode */
 [data-md-color-scheme="default"] .md-typeset h1 {
   color: #000000;
 }

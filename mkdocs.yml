@@ -11,13 +11,13 @@ theme:
   favicon: images/b.png
   palette:
     - scheme: slate #dark mode scheme
-      primary: green
+      primary: '#3fb055' #mkdocs only allows for default colors (ie `green`) so primary color is technically defined in CSS
       accent: light green
       toggle:
         icon: material/lightbulb #light/dark mode button
         name: Switch to dark mode
     - scheme: default #light mode scheme
-      primary: green
+      primary: '#3fb055'
       accent: light green
       toggle:
         icon: material/lightbulb-outline #light/dark mode button
@@ -25,8 +25,8 @@ theme:
   features:
     - navigation.top           # "Back to top" button
     - navigation.footer        # Previous/next page links
-    - content.code.copy         # Copy button for code blocks
-    - content.code.annotate     # Enable code annotations
+    - content.code.copy        # Copy button for code blocks
+    - content.code.annotate    # Enable code annotations
 
 markdown_extensions:
   - admonition
@@ -64,9 +64,9 @@ extra_css:
   - /portfolio/stylesheets/style.css
 
 plugins:
-  - search #includes a search bar at the top of the page
-  - callouts #used for adding context-specific note blocks into my content
-  - tags #better cataloguing of all content
+  - search    #includes a search bar at the top of the page
+  - callouts  #used for adding context-specific note blocks into my content
+  - tags      #better cataloguing of all content
 
 extra:
   social:
