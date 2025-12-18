@@ -59,7 +59,7 @@ I have spent over 4 years working in startup companies, building and expanding k
 
 * **Processes**: QA testing, version control, documentation architecture, content migration, open-source contributions
 
-* **Methodologies**: Agile, docs-as-code
+* **Methodologies**: Agile, docs-as-code, Diataxis
 
 * **Content Types:** Product/software documentation, API docs, release notes, style guides, blogs, onboarding and installation guides, architecture diagrams, graphic design
 

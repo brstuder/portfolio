@@ -1,7 +1,6 @@
-!!! note
+!!! info "Author's Note"
 
-    The live version of this blog post can be found [here](https://www.apptio.com/blog/enhancing-cost-accuracy/?src=kc-blog).
-
+    This is an article I wrote for Kubecost's blog, hosted in Docusaurus. I chose to include this article as a feature showcase of cost saving measures. The live version of this blog post is now hosted on the [Apptio website](https://www.apptio.com/blog/enhancing-cost-accuracy/?src=kc-blog).
 
 In the world of cost monitoring and visibility, having accurate data is vital for businesses. When it comes to managing budgets, avoiding overspending, or enhancing efficiency, getting the most accurate information at your disposal makes all the difference. Kubecost offers several methods to enhance the accuracy of your Kubecost cost metrics. In this blog we explore each method, including the newest method for predicting short-term costs, before they are billed by their cloud service providers (CSPs).
 

@@ -1,5 +1,9 @@
 # Kubecost Cloud GCP Marketplace Licensing
 
+!!! info "Author's Note"
+    
+    This example is a very simple installation guide which takes users through the GCP Marketplace to purchase and install the Kubecost dashboard. Currently, Kubecost is no longer available through the GCP Marketplace, so you will not be able to recreate these steps firsthand.
+
 Kubecost Cloud is [available for licensing on GCP Marketplace](https://console.cloud.google.com/marketplace/product/kubecost-public/kubecost-cloud) and can be installed in minutes. This guide will take you through licensing through GCP Marketplace, and next steps for setting up Kubecost Cloud. Kubecost currently offers 30 days of Kubecost Cloud free without licensing fees.
 
 !!! note

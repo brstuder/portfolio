@@ -1,9 +1,8 @@
 # Admission Controller
 
-!!! note
-
-    The Admission Controller is a beta feature. Please read the documentation carefully.
-
+!!! info "Author's Note"
+  
+    This article is how-to guide for enabling additional functionality in your Kubecost environment. Because this involves giving the software write access to your infrastructure, it is not part of the default functionality. I chose this article as an example of developer-focused instructions which includes CLI examples.
 
 Kubecost's Admission Controller is a tool which leverages Kubecost's Predict API to display expected future costs for changes made to CPU and RAM in your workloads. This can be used to anticipate future spend before resources have been allocated.
  
@@ -36,7 +35,7 @@ Before installing the Admission Controller, make sure you have [`kubectl`](https
     -f values.yaml
   ```
 
-You may need to wait several minutes for the controller to activate. You can check the status of the Admission Controller with `kubectl get service -n kubecost`, when the Admission Controller has been installed in the default `kubecost` namespace. Look for `webhook-server` to confirm a successfull install.
+You may need to wait several minutes for the controller to activate. You can check the status of the Admission Controller with `kubectl get service -n kubecost`, when the Admission Controller has been installed in the default `kubecost` namespace. Look for `webhook-server` to confirm a successful install.
 
 ### Using the Admission Controller
 

@@ -1,10 +1,8 @@
 # Mkdocs Feature Demo
 
-The purpose of this document is to showcase additional Mkdocs functionality. You can see lots of functionality supported by Mkdocs which is particularly useful for developer docs. While many WYSIWYG content editors and CMS tools provide much of this functionality out of the box, developer-built environments in repositories with static site generators will still write their content like this. Each tool or content type comes with an additional section for integrating it into your own Mkdocs site.
+!!! info "Author's Note"
 
-!!! note
-
-    This works on my device. I am using the latest version of Mkdocs Material, and will mention any necessary dependencies in this doc where possible. Of course, if you are still finding problems, don't hesitate to contact me and let me know. This page will also continue to see new additions as I discover them and integrate them into this webpage. Rome wasn't built in a day!
+    The purpose of this document is to showcase additional Mkdocs functionality. You can see lots of functionality supported by Mkdocs which is particularly useful for developer docs. While many WYSIWYG content editors and CMS tools provide much of this functionality out of the box, developer-built environments in repositories with static site generators will still write their content like this. Each tool or content type comes with an additional section for integrating it into your own Mkdocs site.
 
 ## Better Code Blocks
 
@@ -42,7 +40,7 @@ theme:
 
 We've made some great additions to our code blocks, but now suppose we want to add more context to our code blocks. This can be useful for labeling API payloads by their response code, for example:
 
-```py title="404: Not Found"
+```title="404: Not Found"
 {
   "status": 404,
   "error": "Not Found",
@@ -51,25 +49,25 @@ We've made some great additions to our code blocks, but now suppose we want to a
 }
 ```
 
-A title can be added at the top of your code block by adding the correct syntax as specified in [Color Coding](#color-coding), followed by `title="Name of Code Block"`.
+A title can be added at the top of your code block by adding `title="Name of Code Block"`.
 
 ## Collapsible Tabs
 
-<details>
-    <summary>Here is a collapsible tab!</summary>
+??? "Here is a collapsible tab!"
+    
     Here is an example of content that is hidden within an interactable tab.
-</details>
 
-Collapsible tabs are an HTML element supported by Mkdocs Material by default. Collapsible tabs can be formatted in your article like:
+Collapsible tabs are supported by Mkdocs Material, a powerful Mkdocs theme, by default. Collapsible tabs can be formatted in your article like:
 
-```html title="Collapsible Tab Template"
+``` title="Collapsible Tab Template"
 
-<details>
-    <summary>Using collapsible tabs</summary>
-     Here is an example of content that is hidden within an interactable tab.
-</details>
+??? "Here is a collapsible tab!"
+    
+    Here is an example of content that is hidden within an interactable tab.
 
 ```
+
+Collapsible tabs are an example of Mkdocs Material's extensive admonitions functionality. You can learn more about using admonitions in your Mkdocs Material project by visiting their [documentation](https://squidfunk.github.io/mkdocs-material/reference/admonitions/).
 
 ## Better Tables
 
@@ -80,7 +78,7 @@ Through a very basic plugin and some CSS, tables can be a little more pleasing t
         tables
     ```
 
-This will create a clean layout for your tables, and highlight table rows when you hover over them with your cursor.
+This will create a clean layout for your tables, and highlight table rows when you hover over them with your cursor. From here, you can apply additional CSS to your tables to build a style that's cohesive with your brand or webpage.
 
 ### Example: Ingredients for Korean ground beef and rice recipe
 

@@ -1,8 +1,12 @@
 # Cloud Cost Trends API
 
+!!! info "Author's Note"
+
+    This API is used to show changes in spend across two windows of time. I chose to include this doc as an API which performs a simple, mathematical function which is performed by ingesting the user organization's cloud spend data. Even if you aren't familiar with the cloud marketplace, you should be able to read this doc and understand how it can be used.
+
 `GET` `http://<your-kubecost-address>/model/cloudCost/view/trends`
 
-Analyzes change in cloud costs relative to a previous window of the same size
+The Cloud Cost Trends API analyzes change in cloud costs relative to a previous window of the same size.
 
 #### Path Parameters
 

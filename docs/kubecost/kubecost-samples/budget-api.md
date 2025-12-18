@@ -1,5 +1,9 @@
 # Budget API
 
+!!! info "Author's Note"
+
+    The Kubecost Budget API allows organizations to establish spend rules across their operations. I chose to include this article in my portfolio as an API reference doc which presents a fairly straightforward way of setting up budget rules, including use cases and examples to demonstrate the API's intended use and limitations.
+
 The Budget API allows you to create, update, and delete recurring budget rules to control your Kubernetes spending. Weekly and monthly budgets can be established on workloads to set limits on cost spend, with the option to configure alerts for reaching specified budget thresholds via email, Slack, or Microsoft Teams.
 
 ### Budget API

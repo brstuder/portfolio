@@ -1,5 +1,9 @@
 # Efficiency and Idle
 
+!!! info "Author's Note"
+
+    Understanding the Kubernetes and cloud space is not a simple task, and so this article is an explanation to some of the common vocabulary and concepts that are involved when it comes to using your cloud resources more efficiently, a significant part of Kubecost's product offering. Readers should be able to understand the concepts of efficiency of a resource, as well as the idle cost.
+
 For teams interested in reducing their Kubernetes costs, it's beneficial to first understand how provisioned resources have been used. There are two major concepts to start with: pod resource efficiency and cluster idle costs.
 
 ![image](../../images/kubecost/efficiency.png)

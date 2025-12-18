@@ -1,4 +1,6 @@
-!!! note
+# Audubon API
+
+!!! info "Author's Note"
 
     Below is documentation for an API I conceived based on my personal experience and passion in wildlife biology. The project showcases design principles about certain parameters, explains best practices for querying the API, and includes specific use cases as demonstrations. If the concept interests you, there is a more user-friendly app for this purpose called [Merlin Bird ID](https://merlin.allaboutbirds.org/) on your phone.
 

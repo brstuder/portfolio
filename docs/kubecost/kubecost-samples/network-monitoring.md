@@ -1,8 +1,8 @@
 # Network Monitoring
 
-!!! note
+!!! info "Author's Note"
 
-    Network Monitoring is currently in beta. Please read the documentation carefully.
+    I included this article in my portfolio as a tutorial for learning an experimental feature in Kubecost's UI. It is not focused on performing specific tasks, but instead shows the user how to understand the page's visual scope, and how they can filter the page to see specific spend elements.
 
 
 Network Monitoring is a monitoring page which helps visualize your network costs. You will be able to analyze network costs by their connection to your pods, namespaces, or clusters. This may be beneficial for larger teams or teams with complex environments hoping to better understand their network costs.
