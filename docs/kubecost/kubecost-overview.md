@@ -2,7 +2,7 @@
 
 *June 2022 - June 2024*
 
-| Criteria | Tooling |
+| Criteria | Description |
 |---|---|
 | Documentation | GitHub, GitBook, Docusaurus, SnagIt, Markdown |
 | Subject matter/industry | Kubernetes, cloud services and billing |

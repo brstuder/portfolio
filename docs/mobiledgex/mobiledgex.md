@@ -2,7 +2,7 @@
 
 *June 2021 - May 2022*
 
-| Criteria | Tooling |
+| Criteria | Description |
 |---|---|
 | Documentation | Statamic, SnagIt |
 | Subject matter/industry | Internet of things, software |
