@@ -2,7 +2,7 @@
 
 *April 2025 - Present*
 
-| Criteria | Tooling |
+| Criteria | Description |
 |---|---|
 | Documentation | Microsoft Word, Document360, Google Docs, Confluence, SnagIt |
 | Subject matter/industry | Healthcare, software, UI |
