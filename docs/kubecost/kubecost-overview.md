@@ -2,6 +2,12 @@
 
 *June 2022 - June 2024*
 
+| Criteria | Tooling |
+|---|---|
+| Documentation | GitHub, GitBook, Docusaurus, SnagIt, Markdown |
+| Subject matter/industry | Kubernetes, cloud services and billing |
+| Points of contact | Solutions engineers, full-stack engineers, product managers |
+
 Kubecost is a SaaS startup focused on providing cost visibility for cloud service spend in the Kubernetes space, and was acquired by IBM in 2024. For two years, I served as the company's first and only technical writer, as well as the primary maintainer of the company's documentation repository. I have also contributed to company blog posts, release notes, API docs, and architecture diagrams. This collection of articles from my time there showcase the [Diataxis](https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework) with articles which represent each of the four key content types.
 
 I oversaw our live docs site, [docs.kubecost.com](https://docs.kubecost.com/) (which has since been ported to IBM's web domain), a site receiving 40,000 monthly users and acted as the primary maintainer and contributor. Responsibilities and accomplishments include:

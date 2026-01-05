@@ -26,7 +26,13 @@ You can select from these company logos to learn more about my involvement with 
 
 ## About This Portfolio
 
-This portfolio was built using GitHub and Visual Studio Code, written in Markdown, HTML + CSS, and Mkdocs Material, and hosted via GitHub Pages to demonstrate proficiency with syntax languages, static site generators, and version control tooling. The result is a simple, clean portfolio site that serves as a constantly-evolving sandbox for me to continue building my web dev skills.
+I developed this portfolio to demonstrate proficiency with syntax languages, static site generators, and version control tooling. The result is a simple, clean portfolio site that serves as a constantly-evolving sandbox for me to continue building my web dev skills.
+
+| Criteria | Tooling |
+|---|---|
+| Web hosting | GitHub pages |
+| Site generation | Mkdocs Material |
+| Markup languages | Markdown, HTML + CSS |
 
 For a deeper dive into my technical skill set, see the [About Me](about.md) page, an interactive live resume.
 
