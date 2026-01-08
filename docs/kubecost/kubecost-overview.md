@@ -1,6 +1,6 @@
 # Kubecost
 
-*June 2022 - June 2024*
+**Technical Writer, *June 2022 - June 2024***
 
 | Criteria | Description |
 |---|---|

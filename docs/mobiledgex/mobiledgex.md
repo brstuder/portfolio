@@ -1,6 +1,6 @@
 # MobiledgeX
 
-*June 2021 - May 2022*
+**Technical Writer, *June 2021 - May 2022***
 
 | Criteria | Description |
 |---|---|

@@ -1,5 +1,6 @@
 # AbbVie
-*September 2019 - August 2020*
+
+**Digital Communications Intern, *September 2019 - August 2020***
 
 ## Key Projects
 

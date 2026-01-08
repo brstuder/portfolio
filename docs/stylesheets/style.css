@@ -146,9 +146,20 @@ image {
   width: 50%;
 }
 
-/* Homepage banner */
+/* Homepage banner and fade effect */
 .banner {
   margin: 20px;
   padding: 20px;
   text-align: center;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

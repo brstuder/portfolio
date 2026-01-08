@@ -1,6 +1,6 @@
 # Arine
 
-*April 2025 - Present*
+**Technical Writer, *April 2025 - Present***
 
 | Criteria | Description |
 |---|---|
