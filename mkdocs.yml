@@ -3,12 +3,11 @@ site_name: Brett Studer
 site_url: https://brstuder.github.io/portfolio/
 theme:
   name: material
+  logo: images/brett-icon-dark.svg
   font:
     text: Google Sans Flex
     code: Roboto Mono
-  icon:
-    logo: fontawesome/solid/b
-  favicon: images/b.png
+  favicon: images/brett-icon.svg
   palette:
     - scheme: slate #dark mode scheme
       primary: '#3fb055' #mkdocs only allows for default colors (ie `green`) so primary color is technically defined in CSS

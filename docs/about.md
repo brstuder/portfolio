@@ -1,6 +1,8 @@
 # About Me
 
-I have spent over 4 years working in startup companies, building and expanding knowledge bases into powerful, intuitive user-facing doc sites. This has included CMS tooling migrations, improved automation and checks, and style guides ensuring consistent contributions.
+I have spent over 4 years working in startup companies, building and expanding knowledge bases into powerful, intuitive user-facing doc sites. This has included CMS tooling migrations, improved automation and checks, and style guides ensuring consistent contributions. I completed my undergrad at University of Illinois in Urbana-Champaign.
+
+I currently live in Chicago, where I spend my off hours exercising, watching old crime thrillers, and practicing my art. My love for design has added a soft visual touch to all of my web development, creating page styles, layouts, and graphic designs that are clear and visually sound.
 
 ## Work Experience
 
@@ -50,17 +52,13 @@ I have spent over 4 years working in startup companies, building and expanding k
 ## Skills and Tooling
 
 * **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
-
 * **Development**: Github, Microsoft Office, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, Google Gemini, cURL
-
 * **Design**: Adobe Photoshop, Adobe Illustrator, Figma, draw.io, SnagIt
 
 ## Processes and Workflow
 
 * **Processes**: QA testing, version control, documentation architecture, content migration, open-source contributions
-
-* **Methodologies**: Agile, docs-as-code, Diataxis
-
+* **Methodologies**: Agile, Scrum, docs-as-code, Diataxis framework
 * **Content Types:** Product/software documentation, API docs, release notes, style guides, blogs, onboarding and installation guides, architecture diagrams, graphic design
 
 
