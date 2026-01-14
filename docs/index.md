@@ -5,7 +5,7 @@
 
 ## My Work
 
-As a technical writer, I have worked in both software and healthcare companies, but my focus has been with fledgling startups, building out their knowledge bases with nowhere to go but forward. I have worked through multiple tool migrations, and have built out style and contribution guidelines for many companies as they look for a voice that represents their brand and their values.
+I’ve spent my career as a technical writer helping startups find their voice through documentation. In both software and healthcare, I’ve joined teams when their docs were little more than scattered notes and a shared sense of urgency—and turned that chaos into structure and strategy. I’ve led tool migrations, built contribution systems from scratch, and shaped writing standards that help companies sound like themselves. Every project has had its own set of documentation dilemmas, but solving them has always meant the same thing: creating clarity where there wasn’t any before.
 
 You can select from these company logos to learn more about my involvement with each.
 

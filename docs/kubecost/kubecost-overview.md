@@ -24,7 +24,7 @@ Early on into my role, the company decided to move to a new content management s
 
 Before joining, our GitHub-backed documentation was a collective show of love by our software engineers that quality products require quality documentation. However, there are many subtleties to managing large knowledge bases that do not fall into their expertise or responsibilities. As the technical writer, I launched several initiatives to improve the state of our docs repo.
 
-I introduced a basic site-wide link checker via GitHub Actions which ran on every pull request to ensure small changes did not cause large problems. The result improved our visibility into page-to-page communication. I additionally implemented an automatic triaging system to all Issues filed by readers to ensure they received swift attention and resolution. Retroactively sifting through our Issues backlog, I also reduced outstanding user-submitted issues by 59%.
+I introduced a basic site-wide link checker via GitHub Actions which ran on every pull request to ensure small changes did not cause large problems. The result improved our visibility into page-to-page communication. I additionally implemented an automatic triage system to all Issues filed by readers to ensure they received swift attention and resolution. Retroactively sifting through our Issues backlog, I also reduced outstanding user-submitted issues by 59%.
 
 Finally, I helped unify the collective voices of different engineers through an official Style and Contribution Guide, the first of its kind at Kubecost. This helped reduce minor formatting and language inconsistencies, while also helping us build a cohesive voice for our docs.
 
