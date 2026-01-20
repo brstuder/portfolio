@@ -20,7 +20,7 @@ Our docs-as-code pipeline has allowed us to collaborate with the company's multi
 
 ### Migration to GitBook
 
-Early on into my role, the company decided to move to a new content management system tool GitBook. The accessibility provided by a WYSIWYG editor could allow for more contributions from non-engineering personnel who may not be as familiar with our docs-as-code tooling. As Kubecost's solo technical writer, I contributed to migration planning calls, acted as the liaison to GitBook's customer support team, and provided training for GitBook to internal teams and departments.I delivered the training to 7 teams/departments, and ultimately boosted the number of unique docs contributors within the company by 31%.
+Early on into my role, the company decided to move to a new content management system tool GitBook. The accessibility provided by a WYSIWYG editor could allow for more contributions from non-engineering personnel who may not be as familiar with our docs-as-code tooling. As Kubecost's solo technical writer, I contributed to migration planning calls, acted as the liaison to GitBook's customer support team, and provided training for GitBook to team members. I delivered the training across 7 teams/departments, and ultimately boosted the number of unique docs contributors within the company by 31%.
 
 ### Improvements to GitHub Infrastructure
 
