@@ -14,19 +14,23 @@ You can also see architecture diagrams [here](diagrams.md), created with draw.io
 
 ## Key Projects and Responsibilities
 
-I oversaw our live docs site, [docs.kubecost.com](https://docs.kubecost.com/) (which has since been ported to IBM's web domain), a site receiving 40,000 monthly users and acted as the primary maintainer and contributor. In that time, I grew our total number of articles by 91%, and increased annual organic traffic to our docs by 43%. Our docs-as-code pipeline has allowed us to collaborate with the company's multiple engineering details to deliver accurate and effective documentation, as well as broader process and infrastructure improvements.
+I oversaw our live docs site, [docs.kubecost.com](https://docs.kubecost.com/) (which has since been ported to IBM's web domain), a site receiving 40,000 monthly users. I was the primary maintainer and contributor of this repository. During this time, I grew the total number of web articles by 91%, and increased annual organic traffic to our docs by 43%.
+
+Our docs-as-code pipeline has allowed us to collaborate with the company's multiple engineering teams to deliver accurate and effective documentation, as well as broader process and infrastructure improvements.
 
 ### Migration to GitBook
 
-Early on into my role, the company decided to move to a new content management system GitBook to better control front-end facing docs edits. The accessibility provided by a WYSIWYG editor could allow for more contributions from non-engineering personnel who may not be as familiar with our docs-as-code tooling. As Kubecost's solo technical writer, I contributed to migration planning calls, acted as the liaison to GitBook's customer support team, and provided training for GitBook to internal teams and departments. The implementation affected 7 teams, and boosted the number of total docs contributors within the company by 31%.
+Early on into my role, the company decided to move to a new content management system tool GitBook. The accessibility provided by a WYSIWYG editor could allow for more contributions from non-engineering personnel who may not be as familiar with our docs-as-code tooling. As Kubecost's solo technical writer, I contributed to migration planning calls, acted as the liaison to GitBook's customer support team, and provided training for GitBook to internal teams and departments.I delivered the training to 7 teams/departments, and ultimately boosted the number of unique docs contributors within the company by 31%.
 
 ### Improvements to GitHub Infrastructure
 
-Before joining, our GitHub-backed documentation was a collective show of love by our software engineers that quality products require quality documentation. However, there are many subtleties to managing large knowledge bases that do not fall into their expertise or responsibilities. As the technical writer, I launched several initiatives to improve the state of our docs repo.
+Before joining, our GitHub-backed documentation was a collective show of love by our software engineers who understood quality products require quality documentation. However, there are many subtleties to managing large knowledge bases that do not fall into their expertise or responsibilities. As the technical writer, I launched several initiatives to improve the state of our docs repo and unify its contents into a collective knowledge base.
 
-I introduced a basic site-wide link checker via GitHub Actions which ran on every pull request to ensure small changes did not cause large problems. The result improved our visibility into page-to-page communication. I additionally implemented an automatic triage system to all Issues filed by readers to ensure they received swift attention and resolution. Retroactively sifting through our Issues backlog, I also reduced outstanding user-submitted issues by 59%.
+I introduced a basic site-wide link checker via GitHub Actions which ran on every pull request to ensure small changes to docs did not cause large problems. The result improved our visibility into page-to-page communication, reducing the potential number of errors caused from moving, replacing, or deleting articles within the repo.
 
-Finally, I helped unify the collective voices of different engineers through an official Style and Contribution Guide, the first of its kind at Kubecost. This helped reduce minor formatting and language inconsistencies, while also helping us build a cohesive voice for our docs.
+I additionally implemented an automatic triage system to all Issues filed by readers to ensure they received swift attention and resolution. Retroactively sifting through our Issues backlog, I also reduced outstanding user-submitted issues by 59%.
+
+Finally, I helped standardize the voice of our docs site through an official Style and Contribution Guide, the first of its kind at Kubecost. This helped reduce minor formatting and language inconsistencies, while also helping us build a cohesive voice for our docs. That guide cannot be shared in this portfolio, however, due to its proprietary nature.
 
 ### Contributions to Web Properties
 
