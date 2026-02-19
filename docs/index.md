@@ -1,28 +1,71 @@
 <div class="banner">
 <h1>Welcome to my portfolio!</h1>
-<p>My name is Brett, and I write docs.</p>
+<p>My name is Brett, and I write help companies build docs from foundation to scale.</p>
 </div> 
 
 ## My Work
 
-I’ve spent my career as a technical writer helping startups find their voice through documentation. In both software and healthcare, I’ve joined teams when their docs were little more than scattered notes and a shared sense of urgency—and turned that chaos into structure and strategy. I’ve led tool migrations, built contribution systems from scratch, and shaped writing standards that help companies sound like themselves. Every project has had its own set of documentation dilemmas, but solving them has always meant the same thing: creating clarity where there wasn’t any before.
+I’ve spent my career as a technical writer primarily helping startups find their voice through documentation. In both software and healthcare, I’ve joined teams when their docs were little more than scattered notes and a shared sense of urgency. I turned that chaos into structure and strategy. I’ve led tool migrations, built contribution systems from scratch, and shaped writing standards that help companies sound like themselves. Every project has had its own set of documentation dilemmas, but solving them has always meant the same thing: creating clarity where there wasn’t any before.
 
-You can select from these company logos to learn more about my involvement with each.
-
-<div class="icon-grid">
-  <a href="kubecost/kubecost-overview" class="icon-button">
-    <img src="images/welcome/logo1.png" alt="Kubecost">
-  </a>
-  <a href="mobiledgex/mobiledgex" class="icon-button">
-    <img src="images/welcome/logo2.png" alt="MobiledgeX">
-  </a>
-  <a href="arine" class="icon-button">
-    <img src="images/welcome/logo3.png" alt="Arine">
-  </a>
-  <a href="openmrs" class="icon-button">
-    <img src="images/welcome/logo4.png" alt="OpenMRS">
-  </a>
+<div class="experience-container">
+    <div class="experience-card">
+        <a href="/portfolio/arine" class="experience-icon">
+            <img src="images/icons/arine-icon.png" alt="Arine">
+        </a>
+        <div class="experience-content">
+            <h3>Arine, <i>Technical Writer</i></h3>
+            <h4>April 2025 - Present</h4>
+            <p>Building out documentation for a dense knowledge base in a SDLC requiring flexibility and decisiveness. Assisting in large scale content migration into Document360.</p>
+        </div>
+    </div>
+    <div class="experience-card">
+        <a href="/portfolio/kubecost/kubecost-overview" class="experience-icon">
+            <img src="images/icons/kubecost-icon.png" alt="Kubecost">
+        </a>
+        <div class="experience-content">
+            <h3>Kubecost, <i>Technical Writer</i></h3>
+            <h4>June 2022 - June 2024</h4>
+            <p>Maintained documentation repo as solo technical writer, working closely with engineers to develop docs on a monthly release schedule. Helped migrate knowledge base into Gitbook and provided training and contribution guidelines for team members to boost collaboration.</p>
+        </div>
+    </div>
+    <div class="experience-card">
+        <a href="/portfolio/mobiledgex/mobiledgex" class="experience-icon">
+            <img src="images/icons/mobiledgex-icon.png" alt="MobiledgeX">
+        </a>
+        <div class="experience-content">
+            <h3>MobiledgeX, <i>Technical Writer</i></h3>
+            <h4>June 2021 - May 2022</h4>
+            <p>Documented edge computing software product including API documentation, and generated graphic designs to showcase product utility and function.</p>
+        </div>
+    </div>
+    <div class="experience-card">
+        <a href="/portfolio/openmrs" class="experience-icon">
+            <img src="images/icons/openmrs-icon.png" alt="OpenMRS">
+        </a>
+        <div class="experience-content">
+            <h3>OpenMRS, <i>Technical Writer and Google Season of Docs Participant</i></h3>
+            <h4>May 2021 - November 2021</h4>
+            <p>Partnered with open-source medical records company OpenMRS to help streamline new member onboarding and generate page templates for Confluence knowledge base.</p>
+        </div>
+    </div>
 </div>
+
+### Skills and Tooling
+
+* **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
+* **Development**: Github, Microsoft Office, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, Google Gemini, cURL
+* **Design**: Adobe Photoshop, Adobe Illustrator, Figma, draw.io, SnagIt
+
+### Processes and Workflow
+
+* **Processes**: QA testing, version control, documentation architecture, content migration, open-source contributions
+* **Methodologies**: Agile, Scrum, docs-as-code, Diataxis framework
+* **Content Types:** Product/software documentation, API docs, release notes, style guides, blogs, onboarding and installation guides, architecture diagrams, graphic design
+
+### Certifications
+
+* Postman, *Postman API Fundamentals Student Expert* (November 2025)
+* FinOps Foundation, *Introduction to FOCUS* (May 2024)
 
 ## About This Portfolio
 
@@ -34,9 +77,6 @@ I developed this portfolio to demonstrate proficiency with syntax languages, sta
 | Site generation | Mkdocs Material |
 | Markup languages | Markdown, HTML + CSS |
 
-For a deeper dive into my technical skill set, see the [About Me](about.md) page, an interactive live resume.
-
 ## First Visit?
 
-I recommend to new visitors to start with my [Kubecost](kubecost/kubecost-overview.md) and [MobiledgeX](mobiledgex/mobiledgex.md) projects for a deep look into my professional work.
-
+I recommend to new visitors to start with my [Kubecost](kubecost/kubecost-overview.md) and [MobiledgeX](mobiledgex/mobiledgex.md) projects for a deep look into my professional work with both writing and design samples.

@@ -80,6 +80,7 @@ extra:
 
 nav:
   - Welcome: index.md
+  - Arine: arine.md
   - Kubecost:
       - Overview: kubecost/kubecost-overview.md
       - Writing Samples:
@@ -98,11 +99,9 @@ nav:
           - Mapping Virtual Machines to IaaS Resources: mobiledgex/edge-samples/mapping-virtual-machines.md 
           - Trust Policies: mobiledgex/edge-samples/trust-policy.md
       - Graphic Design: mobiledgex/design.md
-  - Other Roles:
-      - Arine: arine.md
-      - AbbVie: abbvie.md
       - OpenMRS: openmrs.md
-  - Portfolio Projects:
+      - AbbVie: abbvie.md
+  - Other Samples:
       - Audubon API: projects/audubon-api.md
       - Mkdocs Demo: projects/mkdocs-demo.md
   - About Me: about.md

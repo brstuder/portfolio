@@ -148,18 +148,7 @@ image {
 
 /* Homepage banner and fade effect */
 .banner {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
