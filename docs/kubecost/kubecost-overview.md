@@ -8,7 +8,7 @@
 | Subject matter/industry | Kubernetes, cloud services and billing |
 | Points of contact | Solutions engineers, full-stack engineers, product managers |
 
-Kubecost is a SaaS startup focused on providing cost visibility for cloud service spend in the Kubernetes space, and was acquired by IBM in 2024. For two years, I served as the company's first and only technical writer, as well as the primary maintainer of the company's documentation repository.
+Kubecost (*KOOB*-cost) is a SaaS startup focused on providing cost visibility for cloud service spend in the Kubernetes space, and was acquired by IBM in 2024. For two years, I served as the company's first and only technical writer, as well as the primary maintainer of the company's documentation repository.
 
 I have also contributed to company blog posts, release notes, API docs, and architecture diagrams. This collection of articles from my time there showcase the [Diataxis framework](https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework) with articles which represent each of the four key content types. In this folder, you can see keystone writing samples which include API documentation, install guides, custom software configurations, and Kubernetes concepts.
 

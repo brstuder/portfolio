@@ -8,7 +8,7 @@
 | Subject matter/industry | Healthcare, software, UI |
 | Points of contact | Knowledge Base team, product managers |
 
-Currently I serve as a solo technical writer at Arine, a healthcare optimization platform for for pharmacists, clinicians, and other medical professionals. Our documentation is considered proprietary and therefore I'm unable to share any direct writing samples. However, I can still freely discuss my professional work more broadly.
+Currently I serve as a solo technical writer at Arine (uh-*REEN*), a healthcare optimization platform for for pharmacists, clinicians, and other medical professionals. Our documentation is considered proprietary and therefore I'm unable to share any direct writing samples. However, I can still freely discuss my professional work more broadly.
 
 ## Key Projects and Responsibilities
 
