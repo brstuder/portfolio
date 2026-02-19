@@ -1,6 +1,6 @@
 <div class="banner">
 <h1>Welcome to my portfolio!</h1>
-<p>My name is Brett, and I write help companies build docs from foundation to scale.</p>
+<p>My name is Brett, and I help companies build docs from foundation to scale.</p>
 </div> 
 
 ## My Work
