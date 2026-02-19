@@ -99,8 +99,8 @@ nav:
           - Mapping Virtual Machines to IaaS Resources: mobiledgex/edge-samples/mapping-virtual-machines.md 
           - Trust Policies: mobiledgex/edge-samples/trust-policy.md
       - Graphic Design: mobiledgex/design.md
-      - OpenMRS: openmrs.md
-      - AbbVie: abbvie.md
+  - OpenMRS: openmrs.md
+  - AbbVie: abbvie.md
   - Other Samples:
       - Audubon API: projects/audubon-api.md
       - Mkdocs Demo: projects/mkdocs-demo.md

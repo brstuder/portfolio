@@ -53,8 +53,8 @@ I’ve spent my career as a technical writer primarily helping startups find the
 ### Skills and Tooling
 
 * **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
-* **Development**: Github, Microsoft Office, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, Google Gemini, cURL
-* **Design**: Adobe Photoshop, Adobe Illustrator, Figma, draw.io, SnagIt
+* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, cURL
+* **Design**: Adobe Photoshop, Adobe Illustrator, Figma, draw.io, SnagIt, Mermaid
 
 ### Processes and Workflow
 
