@@ -5,7 +5,7 @@ theme:
   name: material
   logo: images/brett-icon-dark.svg
   font:
-    text: Noto Flex
+    text: Roboto Flex
     code: Roboto Mono
   favicon: images/brett-icon.svg
   palette:
@@ -101,11 +101,12 @@ nav:
           - Mapping Virtual Machines to IaaS Resources: mobiledgex/edge-samples/mapping-virtual-machines.md 
           - Trust Policies: mobiledgex/edge-samples/trust-policy.md
       - Graphic Design: mobiledgex/design.md
+  - Bird Boy Product Showcase: bird-boy.md
   - OpenMRS: openmrs.md
   - AbbVie: abbvie.md
   - Other Samples:
-      - Audubon API: projects/audubon-api.md
-      - Mkdocs Demo: projects/mkdocs-demo.md
-      - Engineering Flowchart: projects/engineering-flowchart.md
+      - Audubon API: other-projects/audubon-api.md
+      - Mkdocs Demo: other-projects/mkdocs-demo.md
+      - Engineering Flowchart: other-projects/engineering-flowchart.md
 
 copyright: Copyright &copy; 2026 Brett Studer 

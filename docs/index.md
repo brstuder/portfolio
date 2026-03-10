@@ -50,7 +50,24 @@ I’ve spent my career as a technical writer primarily helping startups find the
     </div>
 </div>
 
-### Skills and Tooling
+## Projects
+
+<div>
+    <div class="experience-card">
+        <a href="/portfolio/bird-boy" class="experience-icon">
+            <img src="images/bird-boy/logo-box.png" alt="Bird Boy">
+        </a>
+        <div class="experience-content">
+            <h3>Bird-Boy Product Showcase</h3>
+            <h4>February 2026</h4>
+            <p>Full product showcase for conceptual nature and navigation handheld device, built in Docusaurus. Includes style and branding guidelines, product imagery, technical docs, blog, and brand mission statement.</p>
+        </div>
+    </div>
+</div>
+
+## Technical Skills
+
+### Software and Tooling
 
 * **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
 * **Development**: Github, Microsoft Office, Google Gemini, Claude Code, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, cURL
