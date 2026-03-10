@@ -5,7 +5,7 @@ theme:
   name: material
   logo: images/brett-icon-dark.svg
   font:
-    text: Google Sans Flex
+    text: Noto Flex
     code: Roboto Mono
   favicon: images/brett-icon.svg
   palette:
@@ -31,8 +31,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.extra
-  - pymdownx.superfences
-  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
     # Content organization
   - pymdownx.tabbed:
       alternate_style: true
@@ -48,7 +51,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
   - pymdownx.smartsymbols
   - def_list
   - tables
@@ -104,5 +106,6 @@ nav:
   - Other Samples:
       - Audubon API: projects/audubon-api.md
       - Mkdocs Demo: projects/mkdocs-demo.md
+      - Engineering Flowchart: projects/engineering-flowchart.md
 
 copyright: Copyright &copy; 2026 Brett Studer 
