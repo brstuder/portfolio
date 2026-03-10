@@ -31,7 +31,7 @@ One of the first and most critical aspects of bringing this product to life was 
   <div style="flex:1; min-width:0;"><img src="../images/bird-boy/render.png" style="width:100%; height:100%; object-fit:cover;"></div>
 </div>
 
-What I eventually decided I liked wear tactile textures, rubber and silicone coming together to form the exterior, and physical buttons that could outperform touch screens under harsh conditions. Once I had assets I liked, I took them to Adobe Photoshop to add fine touches. This product render would be a critical part of the project, manifesting ephemeral notions into a tangible direction for the rest of the project.
+What I eventually decided I liked were tactile textures, rubber and silicone coming together to form the exterior, and physical buttons that could outperform touch screens under harsh conditions. Once I had assets I liked, I took them to Adobe Photoshop to add fine touches. This product render would be a critical part of the project, manifesting ephemeral notions into a tangible direction for the rest of the project.
 
 From there, Google Gemini was able to insert this product render into marketing and lifestyle photography. I wanted to push my knowledge of AI image generation to build a dedicated campaign to this product. Now audiences wouldn't just see a proof of concept, they would see the real-world applications of this device. Families with small children huddled around the device, an elderly couple using the device from the comfort of their home, friends trekking through the mud and the rain: all of these different demographics now had a place in our target audience. Accessibility and discovery were two of the biggest themes in creating all the assets for the site.
 
