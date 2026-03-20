@@ -6,7 +6,7 @@
 
 Audubon API is a conservation tool to catalog all sightings of wild bird species. It allows users to record details about a species including its physical descriptors, endangered status, and when it was last sighted. It also allows users to retrieve existing information for species logged by themselves or other users.
 
-## Query Parameters
+## Path Parameters
 
 | Name            | Type      | Description |
 |-----------------|-----------|-------------|
