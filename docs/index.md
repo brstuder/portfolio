@@ -1,11 +1,11 @@
 <div class="banner">
 <h1>Welcome to my portfolio!</h1>
-<p>My name is Brett, and I help companies build docs from foundation to scale.</p>
+<p>My name is Brett, and I help teams build docs from foundation to scale.</p>
 </div> 
 
 ## My Work
 
-I’ve spent my career as a technical writer primarily helping startups find their voice through documentation. In both software and healthcare, I’ve joined teams when their docs were little more than scattered notes and a shared sense of urgency. I turned that chaos into structure and strategy. I’ve led tool migrations, built contribution systems from scratch, and shaped writing standards that help companies sound like themselves. Every project has had its own set of documentation dilemmas, but solving them has always meant the same thing: creating clarity where there wasn’t any before.
+I’ve spent years helping companies find their voice through documentation. In both software and healthcare, including tiny startups, I’ve come aboard when docs were little more than some scattered internal notes and a couple slide decks. I turned that chaos into structure and strategy. I’ve led tool migrations, defined contributon guidelines, and shaped writing standards that help companies sound like themselves. Every project has had its own set of documentation dilemmas, but solving them has always meant the same thing: creating clarity where there wasn’t any before.
 
 <div class="experience-container">
     <div class="experience-card">
@@ -15,7 +15,7 @@ I’ve spent my career as a technical writer primarily helping startups find the
         <div class="experience-content">
             <h3>Arine, <i>Technical Writer</i></h3>
             <h4>April 2025 - Present</h4>
-            <p>Building out documentation for a dense knowledge base in a SDLC requiring flexibility and decisiveness. Assisting in large scale content migration into Document360.</p>
+            <p>Building out documentation for a dense knowledge base in a SDLC requiring flexibility and decisiveness. Orchestrated large-scale content migration into Document360.</p>
         </div>
     </div>
     <div class="experience-card">
@@ -25,7 +25,7 @@ I’ve spent my career as a technical writer primarily helping startups find the
         <div class="experience-content">
             <h3>Kubecost, <i>Technical Writer</i></h3>
             <h4>June 2022 - June 2024</h4>
-            <p>Maintained documentation repo as solo technical writer, working closely with engineers to develop docs on a monthly release schedule. Helped migrate knowledge base into Gitbook and provided training and contribution guidelines for team members to boost collaboration.</p>
+            <p>Maintained documentation repo as solo technical writer, working closely with developers to build docs with a monthly software release schedule. Helped migrate knowledge base into Gitbook and provided training and contribution guidelines for team members to boost collaboration.</p>
         </div>
     </div>
     <div class="experience-card">
