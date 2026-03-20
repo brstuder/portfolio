@@ -35,6 +35,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
+          # yaml-language-server-disable unknown tag
           format: !!python/name:pymdownx.superfences.fence_code_format
     # Content organization
   - pymdownx.tabbed:
