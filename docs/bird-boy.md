@@ -1,4 +1,4 @@
-# Bird Boy Product Showcase
+# Bird-Boy Product Showcase
 
 The Bird-Boy is a conceptual handheld device for which I created an entire product website via Docusaurus. The project was meant to combine a multivaried skillset of marketing, branding, technical writing, and design into a cohesive product identity. You can check out the actual website [here](https://bird-boy.brett-studer99.workers.dev/), which will include the following assets (all developed by me personally):
 

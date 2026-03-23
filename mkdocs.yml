@@ -108,7 +108,7 @@ nav:
       - Graphic Design: mobiledgex/design.md
   - OpenMRS: openmrs.md 
   - AbbVie: abbvie.md
-  - Bird Boy Product Showcase: bird-boy.md
+  - Bird-Boy Product Showcase: bird-boy.md
   - Other Writing Samples:
       - Audubon API: other-projects/audubon-api.md
       - Mkdocs Formatting Demo: other-projects/mkdocs-demo.md
