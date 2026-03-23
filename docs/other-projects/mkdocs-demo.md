@@ -1,8 +1,8 @@
-# Mkdocs Feature Demo
+# Mkdocs Formatting Demo
 
 !!! info "Author's Note"
 
-    The purpose of this document is to showcase additional Mkdocs functionality. You can see lots of functionality supported by Mkdocs which is particularly useful for developer docs. While many WYSIWYG content editors and CMS tools provide much of this functionality out of the box, developer-built environments in repositories with static site generators will still write their content like this. Each tool or content type comes with an additional section for integrating it into your own Mkdocs site.
+    The purpose of this document is to showcase miscellaneous Mkdocs formatting functionality. You can see lots of functionality supported by Mkdocs which is particularly useful for developer docs. While many WYSIWYG content editors and CMS tools provide much of this functionality out of the box, developer-built environments in repositories with static site generators will still write their content like this. Each tool or content type comes with an additional section for integrating it into your own Mkdocs site. Some features may specifically require Material for Mkdocs.
 
 ## Better Code Blocks
 

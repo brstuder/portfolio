@@ -106,12 +106,12 @@ nav:
           - Mapping Virtual Machines to IaaS Resources: mobiledgex/edge-samples/mapping-virtual-machines.md 
           - Trust Policies: mobiledgex/edge-samples/trust-policy.md
       - Graphic Design: mobiledgex/design.md
-  - Bird Boy Product Showcase: bird-boy.md
-  - OpenMRS: openmrs.md
+  - OpenMRS: openmrs.md 
   - AbbVie: abbvie.md
-  - Other Samples:
+  - Bird Boy Product Showcase: bird-boy.md
+  - Other Writing Samples:
       - Audubon API: other-projects/audubon-api.md
-      - Mkdocs Demo: other-projects/mkdocs-demo.md
+      - Mkdocs Formatting Demo: other-projects/mkdocs-demo.md
       - Engineering Flowchart: other-projects/engineering-flowchart.md
 
 copyright: Copyright &copy; 2026 Brett Studer 
