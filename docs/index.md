@@ -94,6 +94,11 @@ I developed this portfolio to demonstrate proficiency with syntax languages, sta
 | Site generation | Mkdocs Material |
 | Markup languages | Markdown, HTML + CSS |
 
+### Migration to Zensical
+
+If you're an avid user or contributor of static site generators, then you may have heard [updates and maintenance of Mkdocs have largely been discontinued](https://fpgmaas.com/blog/collapse-of-mkdocs/). At this time, there are numerous successors vying to take its place, all with their own varying degrees of accessibility and development. So far, [Zensical](https://zensical.org/) has emerged as a legitimate contender (built by many of the same people who helped create Mkdocs), but is still early in supporting all of Mkdocs' functionality and plugins. I considered whether using Mkdocs for my portfolio could be an eventual liability, but at this time, I have concluded not to migrate my portfolio at this time to Zensical or another similar platform. Zensical still ingests `mkkdocs.yml` files, and generates a largely similar frontend. Therefore, switching over will only take minutes and is not warranted (for now).
+
+
 ## First Visit?
 
 I recommend to new visitors to start with my [Kubecost](kubecost/kubecost-overview.md) and [MobiledgeX](mobiledgex/mobiledgex.md) projects for a deep look into my professional work with both writing and design samples.

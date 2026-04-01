@@ -8,6 +8,7 @@ you apply the trust policy to the cloudlet, any applications that are marked tru
 where the outbound traffic rules are applied to those specific applications.
 
 Note these guiding principles and other information about trust policies:
+
 * Security group rules that are implemented are defined by the rules of the trust policy.
 * Application instances can use all the outbound ports from the trust policy and are not restricted to just the application's
 required outbound connections list.
