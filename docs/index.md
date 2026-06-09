@@ -14,7 +14,7 @@ I’ve spent years helping companies find their voice through documentation. In 
         </a>
         <div class="experience-content">
             <h3>Arine, <i>Technical Writer</i></h3>
-            <h4>April 2025 - Present</h4>
+            <h4>April 2025 - Mar 2026</h4>
             <p>Building out documentation for a dense knowledge base in a SDLC requiring flexibility and decisiveness. Orchestrated large-scale content migration into Document360.</p>
         </div>
     </div>
