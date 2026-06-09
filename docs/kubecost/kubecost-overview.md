@@ -7,6 +7,7 @@
 | Documentation | GitHub, GitBook, Docusaurus, SnagIt, Markdown |
 | Subject matter/industry | SaaS, Kubernetes, cloud services and billing |
 | Points of contact | Solutions engineers, full-stack engineers, product managers |
+| Target audience | Software developers, developer advocates, solutions engineers, and IT/governance and compliance personnel |
 
 Kubecost (*KOOB*-cost) is a SaaS startup focused on providing cost visibility for cloud service spend in the Kubernetes space, and was acquired by IBM in 2024. For two years, I served as the company's first and only technical writer, as well as the primary maintainer of the company's documentation repository.
 

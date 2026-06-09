@@ -50,7 +50,20 @@ I’ve spent years helping companies find their voice through documentation. In 
     </div>
 </div>
 
-## Projects
+## Projects & Contributions
+
+<div>
+    <div class="experience-card">
+        <div class="experience-icon">
+            <img src="images/icons/fitnotes.png" alt="FitNotes">
+        </div>
+        <div class="experience-content">
+            <h3>FitNotes, <i>Documentation Contributor</i></h3>
+            <h4>May 2026</h4>
+            <p>Helped standardize web documentation for iOS workout app I personally use after meeting with the app's support team. Updated contact info, streamlined release notes, and standardized grammar and language throughout.</p>
+        </div>
+    </div>
+</div>
 
 <div>
     <div class="experience-card">
@@ -70,8 +83,9 @@ I’ve spent years helping companies find their voice through documentation. In 
 ### Software and Tooling
 
 * **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
-* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, cURL
+* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, cURL, JSON, Stoplight, Fern, VirtualBox, MySQL
 * **Design**: Adobe Photoshop, Adobe Illustrator, Figma, draw.io, SnagIt, Mermaid
+* **Other**: 
 
 ### Processes and Workflow
 
@@ -86,7 +100,7 @@ I’ve spent years helping companies find their voice through documentation. In 
 
 ## About This Portfolio
 
-I developed this portfolio to demonstrate proficiency with syntax languages, static site generators, and version control tooling. The result is a simple, clean portfolio site that serves as a constantly-evolving sandbox for me to continue building my web dev skills.
+I developed this portfolio to demonstrate proficiency with syntax languages, static site generators, and version control tooling, while also consolidating all my professional experiences and samples in one place. The result is a simple, clean portfolio site that serves as a constantly-evolving sandbox for me to continue building my web dev skills.
 
 | Criteria | Tooling |
 |---|---|
@@ -96,7 +110,7 @@ I developed this portfolio to demonstrate proficiency with syntax languages, sta
 
 ### Migration to Zensical
 
-If you're an avid user or contributor of static site generators, then you may have heard [updates and maintenance of Mkdocs have largely been discontinued](https://fpgmaas.com/blog/collapse-of-mkdocs/). At this time, there are numerous successors vying to take its place, all with their own varying degrees of accessibility and development. So far, [Zensical](https://zensical.org/) has emerged as a legitimate contender (built by many of the same people who helped create Mkdocs), but is still early in supporting all of Mkdocs' functionality and plugins. I considered whether using Mkdocs for my portfolio could be an eventual liability, but at this time, I have concluded not to migrate my portfolio at this time to Zensical or another similar platform. Zensical still ingests `mkkdocs.yml` files, and generates a largely similar frontend. Therefore, switching over will only take minutes and is not warranted (for now).
+You may have heard [updates and maintenance of Mkdocs have largely been discontinued](https://fpgmaas.com/blog/collapse-of-mkdocs/). [Zensical](https://zensical.org/) stands as a potential successor (built by many of the same people who helped create Mkdocs), but is still early in supporting all of Mkdocs' functionality and plugins. Until more functionality is developed, I have decided not to migrate my portfolio at this time to Zensical or a similar replacement to Mkdocs.
 
 
 ## First Visit?

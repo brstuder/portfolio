@@ -6,7 +6,8 @@
 |---|---|
 | Documentation | Statamic, SnagIt |
 | Subject matter/industry | SaaS, internet of things, mobile gaming |
-| Points of contact | Full-stack engineers |
+| Points of contact | Full-stack engineers, developer advocates |
+| Target audience | Software developers, mobile gaming developers |
 
 I worked at MobiledgeX, an edge computing startup, as my first full time role out of university. The experience, though short-lived (following [Google's acquisition and liquidation of the company](https://www.crunchbase.com/acquisition/google-cloud-platform-acquires-mobileedgex--8fae7f2c)), provided me with valuable skills to function as an independent writer for my future roles. I wrote and revised software documentation using [Statamic](https://statamic.com/), a content management system tool.
 
