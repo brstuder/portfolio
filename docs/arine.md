@@ -9,7 +9,7 @@
 | Points of contact | Knowledge Base (KB) team, product managers, technical product managers |
 | Target audience | Clinicians, pharmacists, and other healthcare professionals |
 
-Currently I serve as a solo technical writer at Arine (uh-*REEN*), a healthcare optimization platform for for pharmacists, clinicians, and other medical professionals. Our documentation is considered proprietary and therefore I'm unable to share any direct writing samples. However, I can still freely discuss my professional work more broadly.
+Most recently I served as the solo technical writer at Arine (uh-*REEN*), a healthcare optimization platform for pharmacists, clinicians, and other medical professionals. Our documentation is considered proprietary, so I'm unable to share any direct writing samples here. However, I can still freely discuss my professional work more broadly.
 
 ## Key Projects and Responsibilities
 
