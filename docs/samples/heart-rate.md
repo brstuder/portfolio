@@ -2,7 +2,7 @@
 
 !!! info "Author's Note"
     
-    This sample is an excerpt of a research paper I helped draft as a biology intern at the University of Illinois. The paper seeks to explain whether the presence of parasitic brood eggs in the nest of a host species would produce a measurable indicator of stress, in our case, by detecting any increased heart rate. After several years, the research and investigation I helped perform would constitute a revised, published version which can be read on the [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC9848814/#sec14) website.
+    This sample is an excerpt of a research paper I helped draft as a biology intern at the University of Illinois. The paper seeks to explain whether the presence of parasitic brood eggs in the nest of a host species would produce a measurable indicator of stress, in our case, by detecting any increased heart rate. After several years, the research and investigation I helped perform would constitute a revised, published version which can be read on the [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC9848814) website.
 
 
 ## Abstract:
