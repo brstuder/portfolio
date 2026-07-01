@@ -25,11 +25,11 @@ config for multiple cloudlets that use different base images.
 1. In the MobiledgeX Edge-Cloud Console, select GPU Drivers from the left navigation. The GPU Drivers menu opens. This
 menu will show you your GPU Drivers and their license configurations if applicable, shown in the screenshot.
 
-    ![image](../../images/mobiledgex/driver1.PNG)
+    ![image](..//images/mobiledgex/driver1.PNG)
 
 2. Select the plus sign icon. The Create GPU Driver menu opens.
 
-![image](../../images/mobiledgex/driver2.PNG)
+![image](..//images/mobiledgex/driver2.PNG)
 
 **Note:** You can optionally add a License Config if you need your GPU driver to perform specialized tasks. The License Config
 tells the Cloudlet Resource Manager where to pull the license file from to add to GPU-enabled VMs. Here is an example
@@ -93,7 +93,7 @@ bottom of the page.
 For each build specified, MobiledgeX will, if required, perform a one-off pull of the driver and then upload it to our
 `storage.cloud.google.com` account. The credentials are not stored or retained anywhere. Here’s the detailed information of the driver we just created:
 
-![image](../../images/mobiledgex/driver3.PNG)
+![image](..//images/mobiledgex/driver3.PNG)
 
 The MobiledgeX platform can support multiple builds for a single GPU driver to enable the correct driver to be installed for
 different kernel versions. All drivers and their license configurations are cached in a secure storage which operators and
@@ -112,13 +112,13 @@ column of the corresponding cloudlet. Then, select Update from the dropdown menu
 new cloudlet, select the plus sign icon in the top right of the menu. Both of these options will allow you to input and edit
 information about your cloudlet.
 
-    ![image](../../images/mobiledgex/driver4.PNG)
+    ![image](..//images/mobiledgex/driver4.PNG)
 
 3. Scroll down to the Advanced Settings submenu, and toggle the arrow to open it. Inside, you will see an option to set a
 GPU Driver. Select the GPU driver you prefer. Then, select Create or Update at the bottom of the Create Cloudlet or
 Update Cloudlet menu respectively.
 
-![image](../../images/mobiledgex/driver5.PNG)
+![image](..//images/mobiledgex/driver5.PNG)
 
 Once a GPU driver is associated with a cloudlet, MobiledgeX services will automatically select and install matching drivers for
 application deployments based on Kubernetes and Docker. It will also automate license configuration wherever applicable.
@@ -138,8 +138,8 @@ cost optimization.
 appropriate region (US or EU) after it. Select the Maximize icon in the top right corner of the tile. The Monitoring report
 for your GPU will go fullscreen.
 
-    ![image](../../images/mobiledgex/driver6.PNG)
+    ![image](..//images/mobiledgex/driver6.PNG)
 
 3. You can now view usage metrics for your GPU.
 
-    ![image](../../images/mobiledgex/driver7.PNG)
+    ![image](..//images/mobiledgex/driver7.PNG)

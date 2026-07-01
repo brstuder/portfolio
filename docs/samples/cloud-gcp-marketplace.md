@@ -19,17 +19,17 @@ Kubecost Cloud is [available for licensing on GCP Marketplace](https://console.c
 
 On the [Product details page for Kubecost](https://console.cloud.google.com/marketplace/product/kubecost-public/kubecost-cloud), select *Subscribe*. You will be taken to an Order Summary page.
 
-![image](../../images/kubecost/gcp1.png)
+![image](..//images/kubecost/gcp1.png)
 
 Under "1. Select Plan", the default plan should be Cloud Pro, and the default usage fee should be USD 0.167 per node per day. You can use the Pricing Calculator in the right sidebar to determine estimated costs by providing estimated timeframe of usage from 1 day to 1 year, and total node count.
 
-![image](../../images/kubecost/gcp2.png)
+![image](..//images/kubecost/gcp2.png)
 
 Under "2. Purchase Details", select the billing account you wish to associate Kubecost Cloud with from the dropdown.
 
 Under "3. Terms", read and agree to the terms and conditions, which include Google Cloud Marketplace Terms of Service as well as the Kubecost Terms of Service. Then, select *Subscribe*. Wait a moment while your order request is processed. Select *Go to Product Page* in the pop-up which should appear once the order has been sent to Kubecost. If you have not already, select *Sign up with provider* on the product page and provide all necessary user info to get your Kubecost Cloud account set up. Purchase orders should be automatically processed. Refresh the product page until you see *Manage on Provider*. Selecting this will take you from GCP Marketplace to the Kubecost Cloud login page.
 
-![image](../../images/kubecost/gcp3.png)
+![image](..//images/kubecost/gcp3.png)
 
 You should now have access to the Kubecost Cloud dashboard.
 

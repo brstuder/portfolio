@@ -27,11 +27,11 @@ outbound ports within the trust policy regardless of what is listed in the appli
 1.  In the left navigation of the Edge-Cloud Console, select **Policies**, then select **Trust Policies** from the dropdown menu.
 The Trust Policy page opens.
 
-    ![image](../../images/mobiledgex/tp1.PNG)
+    ![image](..//images/mobiledgex/tp1.PNG)
 
 2. On the Trust Policy screen, select the plus icon in the top right. The Create Trust Policy page opens.
 
-    ![image](../../images/mobiledgex/tp2.PNG)
+    ![image](..//images/mobiledgex/tp2.PNG)
 
 3.  Populate the following mandatory fields:
 
@@ -80,9 +80,9 @@ Policy Exception**. The Trust Policy Exception page opens.
 the dropdown menu. The Update Trust Policy Exception page opens.
 3. In the **Action** field, select **Approve** from the dropdown to approve the TPE.
 
-    ![image](../../images/mobiledgex/tp3.PNG)
+    ![image](..//images/mobiledgex/tp3.PNG)
 
 4. Select **Update**. The TPE has now been approved and will be operational. This example screenshot shows all three
 different states available for TPEs.
 
-    ![image](../../images/mobiledgex/tp4.PNG)
+    ![image](..//images/mobiledgex/tp4.PNG)

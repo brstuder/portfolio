@@ -88,32 +88,15 @@ extra:
     property: G-YKJRPETLZ6
 
 nav:
-  - Welcome: index.md
-  - Arine: arine.md
-  - Kubecost:
-      - Overview: kubecost/kubecost-overview.md
-      - Writing Samples:
-          - Budget API: kubecost/kubecost-samples/budget-api.md
-          - Cloud Cost Trend API: kubecost/kubecost-samples/cloud-cost-trend-api.md
-          - Network Monitoring: kubecost/kubecost-samples/network-monitoring.md
-          - Efficiency and Idle: kubecost/kubecost-samples/efficiency-and-idle.md
-          - Admission Controller: kubecost/kubecost-samples/admission-controller.md
-          - Kubecost Cloud GCP Marketplace Licensing: kubecost/kubecost-samples/cloud-gcp-marketplace.md
-          - Getting Highly Accurate and Granular Cost Metrics with Kubecost: kubecost/kubecost-samples/blog-getting-highly-accurate.md
-      - Architecture Diagrams: kubecost/diagrams.md
-  - MobiledgeX:
-      - Overview: mobiledgex/mobiledgex.md
-      - Writing Samples:
-          - Manage GPU Drivers for Cloudlets: mobiledgex/edge-samples/manage-gpu-drivers-for-cloudlets.md
-          - Mapping Virtual Machines to IaaS Resources: mobiledgex/edge-samples/mapping-virtual-machines.md 
-          - Trust Policies: mobiledgex/edge-samples/trust-policy.md
-      - Graphic Design: mobiledgex/design.md
-  - OpenMRS: openmrs.md 
-  - AbbVie: abbvie.md
-  - Bird-Boy Product Showcase: bird-boy.md
-  - Other Writing Samples:
-      - Audubon API: other-projects/audubon-api.md
-      - Mkdocs Formatting Demo: other-projects/mkdocs-demo.md
-      - Engineering Flowchart: other-projects/engineering-flowchart.md
+  - About Me: index.md
+  - Portfolio: portfolio.md
+  - Experience: experience.md
+  - Roles and Projects:
+      - Arine: arine.md
+      - Kubecost: kubecost.md
+      - MobiledgeX: mobiledgex.md
+      - OpenMRS: openmrs.md
+      - AbbVie: abbvie.md
+      - Bird-Boy Project Showcase: bird-boy.md
 
 copyright: Copyright &copy; 2026 Brett Studer 

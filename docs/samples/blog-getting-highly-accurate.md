@@ -1,3 +1,5 @@
+# Getting Highly Accurate and Granular Cost Metrics With Kubecost
+
 !!! info "Author's Note"
 
     This is an article I wrote for Kubecost's blog, hosted in Docusaurus. I chose to include this article as a feature showcase of cost saving measures. The live version of this blog post is now hosted on the [Apptio website](https://www.apptio.com/blog/enhancing-cost-accuracy/?src=kc-blog).
@@ -14,7 +16,7 @@ This initial step serves as a passive, and directionally accurate, foundation fo
 
 Upon Kubecost installation, [integrating billing data with CSPs](https://docs.kubecost.com/install-and-configure/install/cloud-integration) should be a top priority. This will provide value beyond basic assets tracking, including any cloud services you use beyond just Kubernetes resources. Kubecost provides dedicated integration guides for all three major CSPs as well as additional troubleshooting and support.
 
-![image](../../images/kubecost/blog1.png)
+![image](..//images/kubecost/blog1.png)
 
 ### Reconciliation
 
@@ -22,7 +24,7 @@ What’s crucial about cloud integration is that it will enable Kubecost to perf
 
 Kubecost’s Allocation and Assets pages have visual support for recognizing unreconciled costs. In the Kubecost UI, select Settings from the left navigation, then under ‘Pricing’, toggle on *Highlight Unreconciled Costs*, then select *Save* at the bottom of the page. Your most recent cost data will now be displayed with a hatching effect to distinguish it from reconciled data.
 
-![image](../../images/kubecost/blog2.png)
+![image](..//images/kubecost/blog2.png)
 
 Reconciliation requires approximately 36-48 hours following resource usage to update accordingly.
 
@@ -38,7 +40,7 @@ For users who don’t rely largely on CSP infrastructure, you may wonder what pr
 
 Kubecost provides a configurable pricing tool known as Custom Pricing, which can be adjusted through the product UI or your *values.yaml* file. Custom pricing allows you to provide manual monthly pricing values which will override cloud billing data from any APIs, which should be applied before any discounts. This includes values for CPU/GPU/RAM prices, as well as Spot CPU/RAM prices and storage prices.
 
-![image](../../images/kubecost/blog3.png)
+![image](..//images/kubecost/blog3.png)
 
 To access custom pricing via the Kubecost UI, select the *Settings* page from the left navigation, then under ‘Pricing’, toggle on *Enable Custom Pricing*. You can adjust the fields as needed (just remember to select *Save* at the bottom of the page when finished). You can configure these values in your *values.yaml* file under the `kubecostProductConfigs` flag:
 
