@@ -5,7 +5,7 @@ theme:
   name: material
   logo: images/brett-icon-dark.svg
   font:
-    text: Roboto Flex
+    text: Inter
     code: Roboto Mono
   favicon: images/brett-icon.svg
   palette:

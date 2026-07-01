@@ -1,5 +1,7 @@
 # My Portfolio
 
+Here you will find key writing and design samples from across my career. This page includes software and API documentation, blogging, research paper exercepts, as well as graphic and visual design samples.
+
 ## Writing Portfolio
 
 | **Sample Name** | **Type** | **Client** | **Description** |
