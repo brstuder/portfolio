@@ -9,7 +9,7 @@ Network Monitoring is a monitoring page which helps visualize your network costs
 
 The Network Monitoring page is a web of draggable icons which represent your network cost sources, as well as all pods/namespaces/clusters connected to them. Green-border icons represent network costs, while blue-border icons represent your Kubernetes objects that are driving spending. Arrows connecting icons together are colored to represent internal and external spend. Icons are equally-sized; they are not proportionate to spend values.
 
-![Network Monitoring](../../images/kubecost/network-monitoring1.png)
+![Network Monitoring](..//images/kubecost/network-monitoring1.png)
 
 ### Getting started
 
@@ -23,6 +23,6 @@ Adjustable dropdowns will also affect your display. You can sample costs in a wi
 
 Selecting an individual icon will display a window containing cost metrics relating to the service or object the icon represents. Selecting the green arrow icon in this window will reorient your display to only show the selected service/object, as well as all services/objects connected to it. It will also display additional key metrics including a scrollable table of all connected entities and their costs (this can also be opened by selecting *View Details* at the bottom of your page). You can continue performing this process on any icons still displayed, until only a single service and object remain, at which point the UI will not display new icons. You can undo this display by selecting *To Overview*.
 
-![Network Monitoring icons](../../images/kubecost/network-monitoring2.png)
+![Network Monitoring icons](..//images/kubecost/network-monitoring2.png)
 
 You can zoom in and out of your Network Monitoring display using the scroll wheel. Selecting *Legend* in the bottom right will open a legend which identifies the significance of colored icons and lines.

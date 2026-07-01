@@ -6,7 +6,7 @@
 
 For teams interested in reducing their Kubernetes costs, it's beneficial to first understand how provisioned resources have been used. There are two major concepts to start with: workload efficiency and cluster idle costs.
 
-![image](../../images/kubecost/efficiency.png)
+![image](..//images/kubecost/efficiency.png)
 
 ### Workload Efficiency
 

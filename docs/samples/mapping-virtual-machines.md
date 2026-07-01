@@ -12,8 +12,9 @@ This information is provided in a `vms` array under the `resources` array fo
 |    			infraflavor 		   |    			vm’s IaaS flavor 		   |    			string 		   |  m4.small 		 |  |
 |    			ip_address 		   |    			external and internal ip addresses 		   |    			array 		   |  external IP: x.x.x.x 		 |  |
 
-Example with mcctl
-The mcctl utility can be used to pull this information via the clusterinst show argument to the region subcommand:
+## Example with `mcctl`
+
+The `mcctl` utility can be used to pull this information via the clusterinst show argument to the region subcommand:
   $ mcctl clusterinst show region=EU cluster=test01
 
 - key:
