@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="/portfolio/kubecost/kubecost-overview" class="experience-icon">
+        <a href="/portfolio/kubecost" class="experience-icon">
             <img src="../images/icons/kubecost-icon.png" alt="Kubecost">
         </a>
         <div class="experience-content">
@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="/portfolio/mobiledgex/mobiledgex" class="experience-icon">
+        <a href="/portfolio/mobiledgex" class="experience-icon">
             <img src="../images/icons/mobiledgex-icon.png" alt="MobiledgeX">
         </a>
         <div class="experience-content">
