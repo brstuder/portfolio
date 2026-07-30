@@ -1,6 +1,8 @@
 # About Me
 
-My name is Brett Studer, and I help companies build their docs from foundation to scale. I’ve built my career helping them find their voice through documentation, and other instructional content. Across smaller scale startups, I’ve come aboard when docs were little more than some scattered internal notes and a couple slide decks. I turned that chaos into structure and strategy. I’ve led tool migrations, defined contributon guidelines, and shaped language standards that ensure companies sound like themselves. Every project has had its own set of documentation dilemmas, but solving them has always meant the same thing: creating clarity where there wasn’t any before.
+My name is Brett Studer, and I help companies build their docs from foundation to scale, finding their voice through instructional content which improves product knowledge and product adoption. In software and healthcare companies, including tiny startups, I’ve come aboard when docs were little more than some scattered internal notes and a couple slide decks. I turned that chaos into structure and strategy. I’ve led tool migrations, defined contributon guidelines, and shaped writing standards that help companies sound like themselves. Every project has had its own set of documentation dilemmas, but solving them has always meant the same thing: creating clarity where there wasn’t any before.
+
+Beyond documentation, I consider myself to be a flexible multimedia specialist. My product writing has extended to blog articles, web design, graphic design, architecture diagrams, and other visual and written mediums. You'll see a little bit of everything in this portfolio.
 
 To learn more about my work, start with either my [online portfolio samples](portfolio.md) or a dive into my [professional experience](experience.md).
 
