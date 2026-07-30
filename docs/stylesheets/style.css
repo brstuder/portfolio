@@ -102,13 +102,14 @@ table thead {
 }
 
 /* Misc. image formatting */
-image {
+.md-typeset img {
   display: block;
-  margin: auto;
-  width: 50%;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
-/* Homepage banner */
+/* Homepage banner (no longer being used) */
 .banner {
   margin: 10px;
   padding: 10px;

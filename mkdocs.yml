@@ -5,7 +5,7 @@ theme:
   name: material
   logo: images/brett-icon-dark.svg
   font:
-    text: Inter
+    text: Lato
     code: Roboto Mono
   favicon: images/brett-icon.svg
   palette:
@@ -62,15 +62,12 @@ markdown_extensions:
       title: On this page
 
 extra_css:
-  - /portfolio/stylesheets/style.css
+  - stylesheets/style.css
 
 plugins:
   - search    #includes a search bar at the top of the page
   - callouts  #used for adding context-specific note blocks into my content
   - tags      #better cataloguing of all content
-  - social:    #social card
-      cards_layout_options:
-        background color: green
 
 extra:
   social:
@@ -97,6 +94,7 @@ nav:
       - MobiledgeX: mobiledgex.md
       - OpenMRS: openmrs.md
       - AbbVie: abbvie.md
+      - Full-Stack App Deployment with GCP: app-deployment.md
       - Bird-Boy Project Showcase: bird-boy.md
 
 copyright: Copyright &copy; 2026 Brett Studer 

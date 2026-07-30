@@ -7,7 +7,7 @@
         </a>
         <div class="experience-content">
             <h3>Arine, <i>Technical Writer</i></h3>
-            <h4>April 2025 - Mar 2026</h4>
+            <h4>April 2025 - March 2026</h4>
             <p>Built documentation and infrastructure for a software product knowledge base requiring flexibility and decisiveness. Orchestrated large-scale content migration into Document360.</p>
         </div>
     </div>
@@ -57,13 +57,26 @@
 
 <div>
     <div class="experience-card">
-        <div class="experience-icon">
-            <img src="../images/icons/fitnotes.png" alt="FitNotes">
+        <a href="/portfolio/app-deployment" class="experience-icon">
+            <img src="../images/icons/gcloud-icon.png" alt="Google Cloud">
+        </a>
+        <div class="experience-content">
+            <h3>Full-Stack App Deployment with GCP</i></h3>
+            <h4>July 2026</h4>
+            <p>Technical assignment which showcases full build pipeline for sample to-do list app by using GCP, Kubernetes, and GitHub.</p>
         </div>
+    </div>
+</div>
+
+<div>
+    <div class="experience-card">
+        <a href="https://www.fitnotesapp.com/" class="experience-icon">
+            <img src="../images/icons/fitnotes.png" alt="FitNotes">
+        </a>
         <div class="experience-content">
             <h3>FitNotes, <i>Documentation Contributor</i></h3>
             <h4>May 2026</h4>
-            <p>Helped standardize web documentation for iOS workout app I personally use after meeting with the app's support team. Updated contact info, streamlined release notes, and standardized grammar and language throughout.</p>
+            <p>Updated Mkdocs web documentation for iOS workout app I personally use after meeting with the app's support team. Changes include updated contact info, streamlined release notes, and standardized language.</p>
         </div>
     </div>
 </div>
@@ -86,9 +99,8 @@
 ### Software and Tooling
 
 * **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
-* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, cURL, JSON, Stoplight, Fern, VirtualBox, MySQL
+* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, GCP, AWS, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, cURL, JSON, Stoplight, Fern, VirtualBox, MySQL
 * **Design**: Adobe Photoshop, Adobe Illustrator, Figma, draw.io, SnagIt, Mermaid
-* **Other**: 
 
 ### Processes and Workflow
 
