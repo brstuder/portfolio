@@ -99,8 +99,8 @@
 ### Software and Tooling
 
 * **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
-* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, GCP, AWS, Jira, Postman, Kubernetes, kubectl, helm, Visual Studio Code, Zendesk, cURL, JSON, Stoplight, Fern, VirtualBox, MySQL
-* **Design**: Adobe Photoshop, Adobe Illustrator, Figma, draw.io, SnagIt, Mermaid
+* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, GCP, AWS, Jira, Postman, Kubernetes, kubectl, helm, Cloud Service Providers, Visual Studio Code, Zendesk, cURL, JSON, Stoplight, Fern, VirtualBox, MySQL
+* **Design**: Adobe Photoshop, Adobe Illustrator, Adobe Creative Cloud, Microsoft Visio, Figma, draw.io, SnagIt, Mermaid
 
 ### Processes and Workflow
 
