@@ -1,0 +1,54 @@
+name: pr-checks
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+
+jobs:
+  spellcheck:
+    name: Spell check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v6
+        with:
+          config: cspell.json
+          files: |
+            docs/**/*.md
+            README.md
+
+  linkcheck:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      # Built HTML is checked rather than raw markdown: mkdocs rewrites
+      # relative image/nav paths (e.g. `../images/...`) to match each page's
+      # actual output directory, and checking source directly produces false
+      # "file not found" positives for those paths.
+      - run: pip install mkdocs-material mkdocs-callouts
+      - run: mkdocs build --site-dir site
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --config lychee.toml 'site/**/*.html'
+          fail: true
+
+  prose-lint:
+    name: Vale prose lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vale-cli/vale-action@v2
+        with:
+          reporter: github-pr-check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

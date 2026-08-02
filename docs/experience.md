@@ -2,7 +2,7 @@
 
 <div class="experience-container">
     <div class="experience-card">
-        <a href="/portfolio/arine" class="experience-icon">
+        <a href="../arine/" class="experience-icon">
             <img src="../images/icons/arine-icon.png" alt="Arine">
         </a>
         <div class="experience-content">
@@ -12,17 +12,17 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="/portfolio/kubecost" class="experience-icon">
+        <a href="../kubecost/" class="experience-icon">
             <img src="../images/icons/kubecost-icon.png" alt="Kubecost">
         </a>
         <div class="experience-content">
             <h3>Kubecost, <i>Technical Writer</i></h3>
             <h4>June 2022 - June 2024</h4>
-            <p>Maintained documentation repo as solo technical writer, working closely with developers to build docs with a monthly software release schedule. Helped migrate knowledge base into Gitbook and provided training and contribution guidelines for team members to boost collaboration.</p>
+            <p>Maintained documentation repo as solo technical writer, working closely with developers to build docs with a monthly software release schedule. Helped migrate knowledge base into GitBook and provided training and contribution guidelines for team members to boost collaboration.</p>
         </div>
     </div>
     <div class="experience-card">
-        <a href="/portfolio/mobiledgex" class="experience-icon">
+        <a href="../mobiledgex/" class="experience-icon">
             <img src="../images/icons/mobiledgex-icon.png" alt="MobiledgeX">
         </a>
         <div class="experience-content">
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="/portfolio/openmrs" class="experience-icon">
+        <a href="../openmrs/" class="experience-icon">
             <img src="../images/icons/openmrs-icon.png" alt="OpenMRS">
         </a>
         <div class="experience-content">
@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="/portfolio/abbvie" class="experience-icon">
+        <a href="../abbvie/" class="experience-icon">
             <img src="../images/icons/abbvie-icon.png" alt="AbbVie">
         </a>
         <div class="experience-content">
@@ -57,7 +57,7 @@
 
 <div>
     <div class="experience-card">
-        <a href="/portfolio/app-deployment" class="experience-icon">
+        <a href="../app-deployment/" class="experience-icon">
             <img src="../images/icons/gcloud-icon.png" alt="Google Cloud">
         </a>
         <div class="experience-content">
@@ -76,14 +76,14 @@
         <div class="experience-content">
             <h3>FitNotes, <i>Documentation Contributor</i></h3>
             <h4>May 2026</h4>
-            <p>Updated Mkdocs web documentation for iOS workout app I personally use after meeting with the app's support team. Changes include updated contact info, streamlined release notes, and standardized language.</p>
+            <p>Updated MkDocs web documentation for iOS workout app I personally use after meeting with the app's support team. Changes include updated contact info, streamlined release notes, and standardized language.</p>
         </div>
     </div>
 </div>
 
 <div>
     <div class="experience-card">
-        <a href="/portfolio/bird-boy" class="experience-icon">
+        <a href="../bird-boy/" class="experience-icon">
             <img src="../images/bird-boy/logo-box.png" alt="Bird Boy">
         </a>
         <div class="experience-content">
@@ -98,8 +98,8 @@
 
 ### Software and Tooling
 
-* **Documentation**: Markdown, Mkdocs, Docusaurus, HTML, CSS, Document360, Statamic, Gitbook
-* **Development**: Github, Microsoft Office, Google Gemini, Claude Code, GCP, AWS, Jira, Postman, Kubernetes, kubectl, helm, Cloud Service Providers, Visual Studio Code, Zendesk, cURL, JSON, Stoplight, Fern, VirtualBox, MySQL
+* **Documentation**: Markdown, MkDocs, Docusaurus, HTML, CSS, Document360, Statamic, GitBook
+* **Development**: GitHub, Microsoft Office, Google Gemini, Claude Code, GCP, AWS, Jira, Postman, Kubernetes, kubectl, helm, Cloud Service Providers, Visual Studio Code, Zendesk, cURL, JSON, Stoplight, Fern, VirtualBox, MySQL
 * **Design**: Adobe Photoshop, Adobe Illustrator, Adobe Creative Cloud, Microsoft Visio, Figma, draw.io, SnagIt, Mermaid
 
 ### Processes and Workflow

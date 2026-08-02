@@ -13,11 +13,11 @@ The Bird-Boy is a conceptual handheld device for which I created an entire produ
 
 ## Conception
 
-As a long-time outdoors enthusiast, I have been using handhelds and apps to track research projects, as well as in my personal hobbies as well. I know I'm not the only one. Species tracking apps like [Merlin Bird ID](https://merlin.allaboutbirds.org/) as well as recreational games like [Geogaching](https://www.geocaching.com/play) and [Pokémon Go](https://www.pokemongo.com/) have all gathered avid user bases who represent a demographic interested in expanding their knowledge of biodiversity or just gamifying the great outdoors. From there, I conceived an all-in-one package for all types of users: birders, foragers, students, and researchers alike.
+As a long-time outdoors enthusiast, I have been using handhelds and apps to track research projects, as well as in my personal hobbies as well. I know I'm not the only one. Species tracking apps like [Merlin Bird ID](https://merlin.allaboutbirds.org/) as well as recreational games like [Geocaching](https://www.geocaching.com/play) and [Pokémon Go](https://www.pokemongo.com/) have all gathered avid user bases who represent a demographic interested in expanding their knowledge of biodiversity or just gamifying the great outdoors. From there, I conceived an all-in-one package for all types of users: birders, foragers, students, and researchers alike.
 
 ## Execution
 
-Before developing the web content, I wanted to focus on product rendering mockups to visually reflect the device's functionality and use cases. I used Google Gemini's Nano Banana 2 for this process. Early mockups looked like a piece of construction site or warehouse facility equipment; too technical and too bland. Other designs appeared too sleak and delicate, not like something that could withstand a slog through the rain and the mud.
+Before developing the web content, I wanted to focus on product rendering mockups to visually reflect the device's functionality and use cases. I used Google Gemini's Nano Banana 2 for this process. Early mockups looked like a piece of construction site or warehouse facility equipment; too technical and too bland. Other designs appeared too sleek and delicate, not like something that could withstand a slog through the rain and the mud.
 
 <div style="display:flex; gap:10px;">
   <div style="flex:1; min-width:0;"><img src="../images/bird-boy/prototype2.png" style="width:100%; height:100%; object-fit:cover;"></div>

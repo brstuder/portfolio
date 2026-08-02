@@ -1,8 +1,8 @@
-# Mkdocs Formatting Demo
+# MkDocs Formatting Demo
 
 !!! info "Author's Note"
 
-    The purpose of this document is to showcase miscellaneous Mkdocs formatting functionality. You can see lots of functionality supported by Mkdocs which is particularly useful for developer docs. While many WYSIWYG content editors and CMS tools provide much of this functionality out of the box, developer-built environments in repositories with static site generators will still write their content like this. Each tool or content type comes with an additional section for integrating it into your own Mkdocs site. Some features may specifically require Material for Mkdocs.
+    The purpose of this document is to showcase miscellaneous MkDocs formatting functionality. You can see lots of functionality supported by MkDocs which is particularly useful for developer docs. While many WYSIWYG content editors and CMS tools provide much of this functionality out of the box, developer-built environments in repositories with static site generators will still write their content like this. Each tool or content type comes with an additional section for integrating it into your own MkDocs site. Some features may specifically require Material for MkDocs.
 
 ## Better Code Blocks
 
@@ -10,7 +10,7 @@ There are several additions to our code blocks we can make that improve their di
 
 ### Color Coding
 
-In order for code blocks to display with color-coded syntax, we must tell Mkdocs what type of content is being to our code block. In this example, we're adding color coding to an example of Python code like:
+In order for code blocks to display with color-coded syntax, we must tell MkDocs what type of content is being to our code block. In this example, we're adding color coding to an example of Python code like:
 
 ```py
 print("Hello, World!")
@@ -57,7 +57,7 @@ A title can be added at the top of your code block by adding `title="Name of Cod
     
     Here is an example of content that is hidden within an interactable tab.
 
-Collapsible tabs are supported by Mkdocs Material, a powerful Mkdocs theme, by default. Collapsible tabs can be formatted in your article like:
+Collapsible tabs are supported by MkDocs Material, a powerful MkDocs theme, by default. Collapsible tabs can be formatted in your article like:
 
 ``` title="Collapsible Tab Template"
 
@@ -67,7 +67,7 @@ Collapsible tabs are supported by Mkdocs Material, a powerful Mkdocs theme, by d
 
 ```
 
-Collapsible tabs are an example of Mkdocs Material's extensive admonitions functionality. You can learn more about using admonitions in your Mkdocs Material project by visiting their [documentation](https://squidfunk.github.io/mkdocs-material/reference/admonitions/).
+Collapsible tabs are an example of MkDocs Material's extensive admonitions functionality. You can learn more about using admonitions in your MkDocs Material project by visiting their [documentation](https://squidfunk.github.io/mkdocs-material/reference/admonitions/).
 
 ## Better Tables
 

@@ -26,4 +26,13 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material mkdocs-callouts
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs build --site-dir site
+      # PR previews (pr-preview.yml) commit into gh-pages under pr-preview/.
+      # mkdocs gh-deploy fully replaces the branch on every push and would
+      # wipe those out, so this deploys via github-pages-deploy-action with
+      # clean-exclude instead, preserving anything under pr-preview/.
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: site
+          clean-exclude: |
+            pr-preview
