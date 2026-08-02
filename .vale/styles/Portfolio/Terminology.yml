@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: error
+ignorecase: false
+swap:
+  Mkdocs: MkDocs
+  MKDocs: MkDocs
+  Github: GitHub
+  Gitbook: GitBook
+  Javascript: JavaScript

@@ -1,6 +1,6 @@
 # My Portfolio
 
-Here you will find key writing and design samples from across my career. This page includes software and API documentation, blogging, research paper exercepts, as well as graphic and visual design samples.
+Here you will find key writing and design samples from across my career. This page includes software and API documentation, blogging, research paper excerpts, as well as graphic and visual design samples.
 
 ## Writing Portfolio
 
@@ -16,7 +16,7 @@ Here you will find key writing and design samples from across my career. This pa
 | [Mapping Virtual Machines to IaaS Resources](samples/mapping-virtual-machines.md) | Software documentation | MobiledgeX | User guide which shows API and CLI examples for assigning resources to their specific cloud and virtual infrastructure. |
 | [Changes in American Robin Heart Rate in Response to Brood Parasite Eggs (Excerpt)](samples/heart-rate.md) | Research writing | University of Illinois Urbana-Champaign | Research paper I helped draft as part of my wildlife biology research internship. A later, published version can be found [here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9848814/). |
 | [Audubon API](samples/audubon-api.md) | API documentation | Self | Conceptual API doc for birding which allows users to log species sightings. |
-| [Bird-Boy Product Showcase](https://bird-boy.brett-studer99.workers.dev/docs/about) | Product design | Self | [Conceptual product showcase](bird-boy.md) for handheld nature tracking device, which includes techical docs, a blog, and a branding mission statement. |
+| [Bird-Boy Product Showcase](https://bird-boy.brett-studer99.workers.dev/docs/about) | Product design | Self | [Conceptual product showcase](bird-boy.md) for handheld nature tracking device, which includes technical docs, a blog, and a branding mission statement. |
 
 ## Other Samples and Resources
 
@@ -24,7 +24,7 @@ Here you will find key writing and design samples from across my career. This pa
 |---|---|---|---|
 | [Architecture Diagrams at Kubecost](samples/diagrams.md) | Architecture diagrams | Kubecost | Collection of architecture diagrams at Kubecost, used to visualize technical concepts and product architecture |
 | [Graphic Design at MobiledgeX](samples/design.md) | Graphic design | MobiledgeX | Collection of graphic design samples at MobiledgeX, designed in Adobe Photoshop/Illustrator to expand branding resources and promote product functionality |
-| [Engineering Flowchart](samples/engineering-flowchart.md) | Flowchart | Self | Humorous example of Mermaid, a flowchart generation tool written in syntax which is supported by SSGs like Mkdocs |
-| [Mkdocs Demo](samples/mkdocs-demo.md) | User guide | Self | User guide for various Mkdocs Material formatting and text elements, many of which are directly utilized in this portfolio website. |
+| [Engineering Flowchart](samples/engineering-flowchart.md) | Flowchart | Self | Humorous example of Mermaid, a flowchart generation tool written in syntax which is supported by SSGs like MkDocs |
+| [MkDocs Demo](samples/mkdocs-demo.md) | User guide | Self | User guide for various MkDocs Material formatting and text elements, many of which are directly utilized in this portfolio website. |
 
 
