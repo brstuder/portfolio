@@ -26,4 +26,8 @@ In broad compliance with ASD-STE100 (Simplified Technical English), I've also im
 
 ## Key Takeaways
 
+Here is a screenshot of the aforementioned toolchain working successfully:
+
+![image](../images/checks.PNG)
+
 None of these checks are about catching dramatic failures. They're about catching the small, easy-to-miss ones: a typo that slips past a quick read-through, a link that quietly rots after a page gets renamed, a product name spelled two different ways on two different pages. In isolation, each of these is minor. Across a growing site, left unchecked, they erode the thing that makes documentation useful in the first place: the reader's trust that what they're reading is accurate and current. Automating these gates means that trust doesn't depend on a human catching every issue by eye before every merge, which is exactly the discipline that makes docs-as-code work at scale.
