@@ -756,10 +756,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-takewaways" class="md-nav__link">
+  <a href="#key-takeaways" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Takewaways
+        Key Takeaways
       
     </span>
   </a>
@@ -883,10 +883,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-takewaways" class="md-nav__link">
+  <a href="#key-takeaways" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Takewaways
+        Key Takeaways
       
     </span>
   </a>
@@ -923,7 +923,7 @@
 <p><code>pr-checks.yml</code> runs the spellcheck, link check, and prose lint as parallel jobs on every pull request targeting <code>main</code>, reporting results directly as GitHub checks on the PR. Separately, <code>pr-preview.yml</code> builds the site and deploys it to a per-PR preview URL on open or update, then tears that preview down automatically when the PR closes, keeping the production <code>gh-pages</code> deploy untouched in the meantime.</p>
 <h3 id="passive-voice-detection">Passive Voice Detection<a class="headerlink" href="#passive-voice-detection" title="Permanent link">&para;</a></h3>
 <p>In broad compliance with ASD-STE100 (Simplified Technical English), I've also implemented retroactive checks via Claude Code for passive voice, and worked to resolve all instances with clear, definitive language. This is the only feature which I did not implement on a scheduled interval or directly into pull requests, but is nevertheless an important function of maintaining docs.</p>
-<h2 id="key-takewaways">Key Takewaways<a class="headerlink" href="#key-takewaways" title="Permanent link">&para;</a></h2>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
 <p>None of these checks are about catching dramatic failures. They're about catching the small, easy-to-miss ones: a typo that slips past a quick read-through, a link that quietly rots after a page gets renamed, a product name spelled two different ways on two different pages. In isolation, each of these is minor. Across a growing site, left unchecked, they erode the thing that makes documentation useful in the first place: the reader's trust that what they're reading is accurate and current. Automating these gates means that trust doesn't depend on a human catching every issue by eye before every merge, which is exactly the discipline that makes docs-as-code work at scale.</p>
 
 
