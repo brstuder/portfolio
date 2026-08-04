@@ -12,7 +12,7 @@ Professional channels are all linked in the footer of my portfolio. For business
 
 ## About This Portfolio
 
-I developed this portfolio to demonstrate proficiency with syntax languages, static site generators, and version control tooling, while also consolidating all my professional experiences and samples in one place. The result is a simple, clean portfolio site that serves as a constantly-evolving sandbox for me to continue building my web dev skills.
+I developed this portfolio to demonstrate proficiency with syntax languages, static site generators, and version control tooling, while also consolidating all my professional experiences and samples in one place. The result is a simple, clean portfolio site that serves as a constantly-evolving sandbox for me to continue building my web dev skills. You can learn more about improvements and maintenance in my project article [Quality-Gating My Own Docs](projects/portfolio-infrastructure.md).
 
 | Criteria | Tooling |
 |---|---|
@@ -26,4 +26,4 @@ You may have heard [updates and maintenance of MkDocs have largely been disconti
 
 ## First Visit?
 
-I recommend to new visitors to start with my [Kubecost](kubecost.md) and [MobiledgeX](mobiledgex.md) projects for a deep look into my professional work with both writing and design samples.
+I recommend to new visitors to start with my [Kubecost](roles/kubecost.md) and [MobiledgeX](roles/mobiledgex.md) projects for a deep look into my professional work with both writing and design samples.

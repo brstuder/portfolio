@@ -16,7 +16,7 @@ Here you will find key writing and design samples from across my career. This pa
 | [Mapping Virtual Machines to IaaS Resources](samples/mapping-virtual-machines.md) | Software documentation | MobiledgeX | User guide which shows API and CLI examples for assigning resources to their specific cloud and virtual infrastructure. |
 | [Changes in American Robin Heart Rate in Response to Brood Parasite Eggs (Excerpt)](samples/heart-rate.md) | Research writing | University of Illinois Urbana-Champaign | Research paper I helped draft as part of my wildlife biology research internship. A later, published version can be found [here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9848814/). |
 | [Audubon API](samples/audubon-api.md) | API documentation | Self | Conceptual API doc for birding which allows users to log species sightings. |
-| [Bird-Boy Product Showcase](https://bird-boy.brett-studer99.workers.dev/docs/about) | Product design | Self | [Conceptual product showcase](bird-boy.md) for handheld nature tracking device, which includes technical docs, a blog, and a branding mission statement. |
+| [Bird-Boy Product Showcase](https://bird-boy.brett-studer99.workers.dev/docs/about) | Product design | Self | [Conceptual product showcase](projects/bird-boy.md) for handheld nature tracking device, which includes technical docs, a blog, and a branding mission statement. |
 
 ## Other Samples and Resources
 
