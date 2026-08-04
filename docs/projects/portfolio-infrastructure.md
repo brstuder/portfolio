@@ -24,6 +24,6 @@ A [Vale](https://vale.sh/) substitution style, which I wired in through `.vale.i
 
 In broad compliance with ASD-STE100 (Simplified Technical English), I've also implemented retroactive checks via Claude Code for passive voice, and worked to resolve all instances with clear, definitive language. This is the only feature which I did not implement on a scheduled interval or directly into pull requests, but is nevertheless an important function of maintaining docs.
 
-## Key Takewaways
+## Key Takeaways
 
 None of these checks are about catching dramatic failures. They're about catching the small, easy-to-miss ones: a typo that slips past a quick read-through, a link that quietly rots after a page gets renamed, a product name spelled two different ways on two different pages. In isolation, each of these is minor. Across a growing site, left unchecked, they erode the thing that makes documentation useful in the first place: the reader's trust that what they're reading is accurate and current. Automating these gates means that trust doesn't depend on a human catching every issue by eye before every merge, which is exactly the discipline that makes docs-as-code work at scale.
