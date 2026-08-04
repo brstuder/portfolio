@@ -6,9 +6,9 @@ The project touches the core disciplines expected of a modern cloud/DevOps engin
 
 ## Overview
 
-![image](images/app/arch-diagram.png)
+![image](../images/app/arch-diagram.png)
 
-As seen in this architecture diagram, the key components of my project include:
+As this architecture diagram shows, the key components of my project include:
 
 * To-do list application ("tasky"), provided as part of the assignment, containerized via a Dockerfile and built into a minimal production image
 * A private GitHub repository hosting the app source code as well as other key project files
@@ -23,11 +23,11 @@ As seen in this architecture diagram, the key components of my project include:
 
 Here is a screenshot of the "tasky" application.
 
-![image](images/app/tasks.png)
+![image](../images/app/tasks.png)
 
-To-do list items added by users through the app's frontend are persisted to a MongoDB server via a database connection string. That MongoDB server writes a full backup to an object storage bucket on daily intervals via an automated cron job. Below is a GCP screenshot which shows a bucket receiving daily backups.
+The app persists to-do list items, added by users through its frontend, to a MongoDB server via a database connection string. That MongoDB server writes a full backup to an object storage bucket on daily intervals via an automated cron job. Below is a GCP screenshot which shows a bucket receiving daily backups.
 
-![image](images/app/bucket.png)
+![image](../images/app/bucket.png)
 
 ### Hosting App Files
 
@@ -38,7 +38,7 @@ Here is the private GitHub repository I created. The contents of the repo includ
 * IaC Terraform files
 * GitHub Actions workflow `.yml` files, including environment setup, application build/deploy, and infrastructure teardown
 
-![image](images/app/repo.png)
+![image](../images/app/repo.png)
 
 ## Key Takeaways
 
@@ -50,4 +50,4 @@ This project reflects the kind of work that shows up daily in cloud/DevOps envir
 
 **Debugging real, non-obvious failures.** Several of the most valuable moments in this project came from things going wrong. In many ways, debugging and troubleshooting these problems as they occurred facilitated a real-world learning environment where I did not have to fear failure or setbacks. It provided a glimpse into the world of product testing and QA.
 
-**Clear technical communication under scrutiny.** This project was ultimately delivered live to a technical panel, which meant not just meeting the project's outlined criteria, but being able to demonstrate my knowledge of multiple technical domains, as well as being able to articulate why I made certain choices or arrived at certain technical understandings.
+**Clear technical communication under scrutiny.** I ultimately delivered this project live to a technical panel, which meant not just meeting the project's outlined criteria, but being able to demonstrate my knowledge of multiple technical domains, as well as being able to articulate why I made certain choices or arrived at certain technical understandings.

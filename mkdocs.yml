@@ -88,13 +88,15 @@ nav:
   - About Me: index.md
   - Portfolio: portfolio.md
   - Experience: experience.md
-  - Roles and Projects:
-      - Arine: arine.md
-      - Kubecost: kubecost.md
-      - MobiledgeX: mobiledgex.md
-      - OpenMRS: openmrs.md
-      - AbbVie: abbvie.md
-      - Full-Stack App Deployment with GCP: app-deployment.md
-      - Bird-Boy Project Showcase: bird-boy.md
+  - Roles:
+      - Improving Docs Workflows with AI at Arine: roles/arine.md
+      - Leading Docs Strategy at Kubecost: roles/kubecost.md
+      - Docs and Multimedia at MobiledgeX: roles/mobiledgex.md
+      - OpenMRS Fellowship for Google Season of Docs: roles/openmrs.md
+      - AbbVie Innovation Center Internship: roles/abbvie.md
+  - Projects:
+      - Full-Stack App Deployment with GCP: projects/app-deployment.md
+      - Bird-Boy Project Showcase: projects/bird-boy.md
+      - Quality-Gating My Own Portfolio: projects/portfolio-infrastructure.md
 
 copyright: Copyright &copy; 2026 Brett Studer 

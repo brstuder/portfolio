@@ -2,7 +2,7 @@
 
 <div class="experience-container">
     <div class="experience-card">
-        <a href="../arine/" class="experience-icon">
+        <a href="../roles/arine/" class="experience-icon">
             <img src="../images/icons/arine-icon.png" alt="Arine">
         </a>
         <div class="experience-content">
@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="../kubecost/" class="experience-icon">
+        <a href="../roles/kubecost/" class="experience-icon">
             <img src="../images/icons/kubecost-icon.png" alt="Kubecost">
         </a>
         <div class="experience-content">
@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="../mobiledgex/" class="experience-icon">
+        <a href="../roles/mobiledgex/" class="experience-icon">
             <img src="../images/icons/mobiledgex-icon.png" alt="MobiledgeX">
         </a>
         <div class="experience-content">
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="../openmrs/" class="experience-icon">
+        <a href="../roles/openmrs/" class="experience-icon">
             <img src="../images/icons/openmrs-icon.png" alt="OpenMRS">
         </a>
         <div class="experience-content">
@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="experience-card">
-        <a href="../abbvie/" class="experience-icon">
+        <a href="../roles/abbvie/" class="experience-icon">
             <img src="../images/icons/abbvie-icon.png" alt="AbbVie">
         </a>
         <div class="experience-content">
@@ -57,7 +57,20 @@
 
 <div>
     <div class="experience-card">
-        <a href="../app-deployment/" class="experience-icon">
+        <a href="../projects/portfolio-infrastructure/" class="experience-icon">
+            <img src="../images/icons/github.png" alt="GitHub">
+        </a>
+        <div class="experience-content">
+            <h3>Quality-Gating My Own Portfolio</i></h3>
+            <h4>August 2026</h4>
+            <p>Formalized workflow improvements to the portfolio repo, including spell-checker, frontend preview, and best practice linting.</p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="experience-card">
+        <a href="../projects/app-deployment/" class="experience-icon">
             <img src="../images/icons/gcloud-icon.png" alt="Google Cloud">
         </a>
         <div class="experience-content">
@@ -83,13 +96,13 @@
 
 <div>
     <div class="experience-card">
-        <a href="../bird-boy/" class="experience-icon">
+        <a href="../projects/bird-boy/" class="experience-icon">
             <img src="../images/bird-boy/logo-box.png" alt="Bird Boy">
         </a>
         <div class="experience-content">
             <h3>Bird-Boy Product Showcase</h3>
             <h4>February 2026</h4>
-            <p>Full product showcase for conceptual nature and navigation handheld device, built in Docusaurus. Includes style and branding guidelines, product imagery, technical docs, blog, and brand mission statement.</p>
+            <p>Full product showcase for conceptual nature and navigation handheld device, which I built in Docusaurus. Includes style and branding guidelines, product imagery, technical docs, blog, and brand mission statement.</p>
         </div>
     </div>
 </div>
@@ -105,7 +118,7 @@
 ### Processes and Workflow
 
 * **Processes**: QA testing, version control, documentation architecture, content migration, open-source contributions
-* **Methodologies**: Agile, Scrum, docs-as-code, Diataxis framework
+* **Methodologies**: Agile, Scrum, docs-as-code, Diataxis framework, ASD-STE100
 * **Content Types:** Product/software documentation, API docs, release notes, style guides, blogs, onboarding and installation guides, architecture diagrams, graphic design
 
 ### Certifications
