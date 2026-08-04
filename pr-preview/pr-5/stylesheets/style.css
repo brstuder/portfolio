@@ -1,0 +1,117 @@
+/* General style changes */
+
+:root {
+  --md-primary-fg-color: #3fb055; /*ignore primary palette color in mkdocs.yml*/
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-weight: bold;
+}
+
+table thead {
+  color: white;
+  background-color: #3fb055;
+}
+
+/* The page title color changes depending whether the user is in light or dark mode */
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: #000000;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #ffffff;
+}
+
+/* This creates the interactive icon buttons on the About Me page */
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.experience-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.experience-icon {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 2px solid #d0d0d0;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-icon:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #21d05e;
+    background-color: #ececec;
+}
+
+.experience-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.experience-content {
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+.experience-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-weight: bold;
+}
+
+.experience-content p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .experience-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experience-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .experience-content {
+        padding-top: 0;
+    }
+}
+
+/* Misc. image formatting */
+.md-typeset img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Homepage banner (no longer being used) */
+.banner {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
