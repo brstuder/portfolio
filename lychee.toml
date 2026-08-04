@@ -10,13 +10,19 @@ max_retries = 3
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
 # Example/placeholder hosts used in API documentation samples — not real endpoints.
-# The remaining entries are real, live sites that reject automated/CI
+# The next few entries are real, live sites that reject automated/CI
 # requests regardless of user agent (verified manually) and are excluded
 # rather than accepted outright, so a genuine break elsewhere still fails:
 #   - linkedin.com returns a nonstandard 999 to any non-browser client
 #   - merlin.allaboutbirds.org 403s CI IP ranges
 #   - crunchbase.com intermittently 403s automated requests
 #   - the GCP console has a known HTTP/2 handshake issue with automated clients
+# The last entry excludes the site's own canonical/self-referencing URLs
+# (e.g. mkdocs-material's <link rel="canonical">), since a page added or
+# moved in a PR won't exist on the live deployment until the PR merges —
+# checking those against production would always 404. Everything else on
+# the page is still checked normally, either as a relative path against
+# the local build or as a real external link.
 exclude = [
   "^https?://localhost",
   "^https?://<.*>",
@@ -24,6 +30,7 @@ exclude = [
   "^https?://merlin\\.allaboutbirds\\.org",
   "^https?://(www\\.)?crunchbase\\.com",
   "^https?://console\\.cloud\\.google\\.com",
+  "^https?://brstuder\\.github\\.io/portfolio/",
 ]
 
 # mkdocs-material's generated 404 page intentionally uses site_url-rooted
@@ -32,12 +39,5 @@ exclude = [
 exclude_path = [
   "404\\.html$",
 ]
-
-# Every page's canonical <link> tag (and other self-referencing metadata)
-# uses the absolute site_url. For pages added/moved in a PR, that path
-# doesn't exist on the live deployment yet since this PR hasn't merged,
-# which would 404 forever otherwise. Resolve those against the local
-# build instead so a genuinely broken/typo'd internal path still fails.
-remap = ["https://brstuder.github.io/portfolio/ file://./site/"]
 
 accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 307, 308, 429]
