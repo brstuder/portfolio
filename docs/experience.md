@@ -55,20 +55,27 @@
 
 ## Projects & Contributions
 
-<div>
+<div class="experience-container">
+    <div class="experience-card">
+        <a href="../projects/homelab/" class="experience-icon">
+            <img src="../images/icons/ubuntu.png" alt="Ubuntu">
+        </a>
+        <div class="experience-content">
+            <h3>Linux Homelab with Gaming and Media Servers</h3>
+            <h4>August 2026</h4>
+            <p>Repurposed an old laptop into an headless Ubuntu server, containerizing a gaming server with Docker and exposing it to friends via port forwarding and dynamic DNS. Configured host firewall, key-based SSH, intrusion prevention, and automated backups.</p>
+        </div>
+    </div>
     <div class="experience-card">
         <a href="../projects/portfolio-infrastructure/" class="experience-icon">
             <img src="../images/icons/github.png" alt="GitHub">
         </a>
         <div class="experience-content">
-            <h3>Quality-Gating My Own Portfolio</i></h3>
+            <h3>Quality-Gating My Own Portfolio</h3>
             <h4>August 2026</h4>
             <p>Built a docs-as-code CI/CD pipeline for this MkDocs portfolio using automated jobs via GitHub Actions on every pull request, plus automated per-PR preview deploys.</p>
         </div>
     </div>
-</div>
-
-<div>
     <div class="experience-card">
         <a href="../projects/app-deployment/" class="experience-icon">
             <img src="../images/icons/gcloud-icon.png" alt="Google Cloud">
@@ -79,9 +86,6 @@
             <p>Deployed a containerized to-do app to a private GKE cluster using Terraform for IaC and GitHub Actions for CI/CD, with a GCP-hosted MongoDB backend and automated object-storage backups. Presented the full architecture and security reasoning to a technical panel as part of a Wiz interview assessment.</p>
         </div>
     </div>
-</div>
-
-<div>
     <div class="experience-card">
         <a href="https://www.fitnotesapp.com/" class="experience-icon">
             <img src="../images/icons/fitnotes.png" alt="FitNotes">
@@ -92,9 +96,6 @@
             <p>Updated MkDocs web documentation for iOS workout app I personally use after meeting with the app's support team. Changes include updated contact info, streamlined release notes, and standardized language.</p>
         </div>
     </div>
-</div>
-
-<div>
     <div class="experience-card">
         <a href="../projects/bird-boy/" class="experience-icon">
             <img src="../images/bird-boy/logo-box.png" alt="Bird Boy">
