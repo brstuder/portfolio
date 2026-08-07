@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://brstuder.github.io/portfolio/samples/design/">
+        <link rel="canonical" href="https://brstuder.github.io/portfolio/projects/homelab/">
       
       
+        <link rel="prev" href="../../roles/abbvie/">
+      
+      
+        <link rel="next" href="../portfolio-infrastructure/">
       
       
         
@@ -21,7 +25,7 @@
     
     
       
-        <title>Graphic Design at MobiledgeX - Brett Studer</title>
+        <title>Linux Homelab with Gaming and Media Servers - Brett Studer</title>
       
     
     
@@ -84,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#graphic-design-at-mobiledgex" class="md-skip">
+        <a href="#self-hosted-linux-server-from-bare-metal-to-a-secured-gaming-server" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Graphic Design at MobiledgeX
+              Linux Homelab with Gaming and Media Servers
             
           </span>
         </div>
@@ -512,18 +516,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -544,7 +550,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -559,10 +565,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../projects/homelab/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux Homelab with Gaming and Media Servers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -578,6 +611,89 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#repurposing-old-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repurposing Old Hardware
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standing-up-the-minecraft-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standing Up the Minecraft Server
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exposing-a-home-server-safely" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exposing a Home Server Safely
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exposing a Home Server Safely">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-layered-security-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Layered Security Approach
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -590,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/portfolio-infrastructure/" class="md-nav__link">
+      <a href="../portfolio-infrastructure/" class="md-nav__link">
         
   
   
@@ -618,7 +734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/app-deployment/" class="md-nav__link">
+      <a href="../app-deployment/" class="md-nav__link">
         
   
   
@@ -646,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/bird-boy/" class="md-nav__link">
+      <a href="../bird-boy/" class="md-nav__link">
         
   
   
@@ -696,6 +812,75 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#repurposing-old-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repurposing Old Hardware
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standing-up-the-minecraft-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standing Up the Minecraft Server
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exposing-a-home-server-safely" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exposing a Home Server Safely
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exposing a Home Server Safely">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-layered-security-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Layered Security Approach
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -711,13 +896,18 @@
 
 
 
-<h1 id="graphic-design-at-mobiledgex">Graphic Design at MobiledgeX<a class="headerlink" href="#graphic-design-at-mobiledgex" title="Permanent link">&para;</a></h1>
-<p>We did not have a full-time graphic designer at MobiledgeX, and so I volunteered to assist with creating promotional graphics that could be shared across our different public-facing channels. These graphics all abided by MobiledgeX's internal branding and marketing standards. Graphics and icons were developed in Adobe Photoshop and Illustrator.</p>
-<p><img alt="image" src="../../images/mobiledgex/mobiledgex1.png" /></p>
-<p><img alt="image" src="../../images/mobiledgex/mobiledgex2.png" /></p>
-<p><img alt="image" src="../../images/mobiledgex/mobiledgex3.png" /></p>
-<p>MobiledgeX maintained an existing library of icons to be used, but I was able to generate custom icons which still conformed with their aesthetic.</p>
-<p><img alt="image" src="../../images/mobiledgex/mobiledgex-icons.png" /></p>
+<h1 id="self-hosted-linux-server-from-bare-metal-to-a-secured-gaming-server">Self-Hosted Linux Server: From Bare Metal to a Secured Gaming Server<a class="headerlink" href="#self-hosted-linux-server-from-bare-metal-to-a-secured-gaming-server" title="Permanent link">&para;</a></h1>
+<p>This homelab project was a personal favorite for me, getting to learn key development tooling in a hands-on, real-world use case. I dug out my old college laptop, which had been gathering dust for several years now, and decided it would make the perfect sample for this project.</p>
+<h2 id="repurposing-old-hardware">Repurposing Old Hardware<a class="headerlink" href="#repurposing-old-hardware" title="Permanent link">&para;</a></h2>
+<p>I started by wiping the device completely and installing an Ubuntu LTS 26.04 server. My plan was to leave the server running while the laptop remained shut and tucked away (as it already had been up to this point). It would make the perfect foundation for a collection of small, self-hosted services including media and gaming servers. This project became a practical exercise in Linux administration, home networking, and the kind of layered security thinking that's expected of anyone exposing a personal server to the public internet. I configured the machine to run headless, lid closed, where it could be remotely accessed through my desktop, and from there, I was free to start building, and my first project was a standard Minecraft server.</p>
+<h2 id="standing-up-the-minecraft-server">Standing Up the Minecraft Server<a class="headerlink" href="#standing-up-the-minecraft-server" title="Permanent link">&para;</a></h2>
+<p>With a stable, always-on Linux host in place, I containerized a Minecraft server using Docker Compose. This made it trivial to persist world data across rebuilds, set resource limits appropriate for the hardware, and configure automatic restarts so the server recovers cleanly after a reboot or outage.</p>
+<h2 id="exposing-a-home-server-safely">Exposing a Home Server Safely<a class="headerlink" href="#exposing-a-home-server-safely" title="Permanent link">&para;</a></h2>
+<p>In order to let friends outside my network access the server, I had to take proper precaution to ensure my network wasn't haphazardly being exposed to the outside world. I opted for direct port forwarding, paired with dynamic DNS so the server stays reachable even when the ISP changes the public IP.</p>
+<h3 id="a-layered-security-approach">A Layered Security Approach<a class="headerlink" href="#a-layered-security-approach" title="Permanent link">&para;</a></h3>
+<p>Opening a port to the internet means accepting it will be found and probed automatically, so I treated security as overlapping layers rather than one control. At the router, the exposed port was deliberately different from the game's default. On the host, a firewall denied all incoming traffic by default, SSH access was switched entirely to key-based authentication, and an intrusion-prevention tool auto-blocked hosts showing repeated failed logins. At the application layer, only pre-approved accounts can join via whitelisting, and Minecraft's ownership verification blocks spoofed logins even from a valid-looking username. Automated, rolling daily backups guard against data loss from any failure in the other layers.</p>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<p>This project reinforced that self-hosting isn't just about getting a service running, it's about reasoning through what happens once it's reachable from the open internet. Troubleshooting both common and subtle errors along the way, weighing trade-offs of opposing security measures, and building defense-in-depth around a genuinely exposed service are the same fundamentals that show up in production infrastructure work, just at homelab scale.</p>
 
 
 
@@ -750,6 +940,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../roles/abbvie/" class="md-footer__link md-footer__link--prev" aria-label="Previous: AbbVie Innovation Center Internship">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                AbbVie Innovation Center Internship
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../portfolio-infrastructure/" class="md-footer__link md-footer__link--next" aria-label="Next: Quality-Gating My Own Portfolio">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quality-Gating My Own Portfolio
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
