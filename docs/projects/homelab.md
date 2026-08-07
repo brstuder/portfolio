@@ -1,4 +1,4 @@
-# Self-Hosted Linux Server: From Bare Metal to a Secured Gaming Server
+# Bare-Metal Linux Homelab with Gaming Server
 
 This homelab project was a personal favorite for me, getting to learn key development tooling in a hands-on, real-world use case. I dug out my old college laptop, which had been gathering dust for several years now, and decided it would make the perfect sample for this project.
 

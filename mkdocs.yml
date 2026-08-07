@@ -95,9 +95,9 @@ nav:
       - OpenMRS Fellowship for Google Season of Docs: roles/openmrs.md
       - AbbVie Innovation Center Internship: roles/abbvie.md
   - Projects:
-      - Linux Homelab with Gaming and Media Servers: projects/homelab.md
+      - Bare-Metal Linux Homelab with Gaming Server: projects/homelab.md
       - Quality-Gating My Own Portfolio: projects/portfolio-infrastructure.md
       - Full-Stack App Deployment with GCP: projects/app-deployment.md
-      - Bird-Boy Project Showcase: projects/bird-boy.md
+      - Bird-Boy Product Showcase: projects/bird-boy.md
 
 copyright: Copyright &copy; 2026 Brett Studer 
