@@ -4,7 +4,7 @@ This homelab project was a personal favorite for me, getting to learn key develo
 
 ## Repurposing Old Hardware
 
-I started by wiping the device completely and installing a Ubuntu LTS 26.04 server. My plan was to leave the server running while the laptop remained shut and tucked away (as it already had been up to this point). It would make the perfect foundation for a collection of small, self-hosted services including media and gaming servers. This project became a practical exercise in Linux administration, home networking, and the kind of layered security thinking that's expected of anyone exposing a personal server to the public internet. I configured the machine to run headless, lid closed, where it could be remotely accessed through my desktop, and from there, I was free to start building, and my first project was a standard Minecraft server.
+I started by wiping the device completely and installing an Ubuntu LTS 26.04 server. My plan was to leave the server running while the laptop remained shut and tucked away (as it already had been up to this point). It would make the perfect foundation for a collection of small, self-hosted services including media and gaming servers. This project became a practical exercise in Linux administration, home networking, and the kind of layered security thinking that's expected of anyone exposing a personal server to the public internet. I configured the machine to run headless, lid closed, where it could be remotely accessed through my desktop, and from there, I was free to start building, and my first project was a standard Minecraft server.
 
 ## Standing Up the Minecraft Server
 
