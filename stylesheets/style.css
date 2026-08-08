@@ -68,6 +68,17 @@ table thead {
     background-color: #ececec;
 }
 
+/* Dark mode: swap the white icon card for a dark gray one */
+[data-md-color-scheme="slate"] .experience-icon {
+    background-color: #2b2b2b;
+    border-color: #444444;
+}
+
+[data-md-color-scheme="slate"] .experience-icon:hover {
+    border-color: #21d05e;
+    background-color: #383838;
+}
+
 .experience-icon img {
     width: 100%;
     height: 100%;
