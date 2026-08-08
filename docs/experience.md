@@ -43,7 +43,7 @@
     </div>
     <div class="experience-card">
         <a href="../roles/abbvie/" class="experience-icon">
-            <img src="../images/icons/abbvie-icon.png" alt="AbbVie">
+            <img src="../images/icons/abbvie-icon.png" alt="AbbVie" class="dia-light">
         </a>
         <div class="experience-content">
             <h3>AbbVie, <i>Digital Communications Intern</i></h3>
@@ -68,7 +68,7 @@
     </div>
     <div class="experience-card">
         <a href="../projects/portfolio-infrastructure/" class="experience-icon">
-            <img src="../images/icons/github.png" alt="GitHub">
+            <img src="../images/icons/github.png" alt="GitHub" class="dia-light">
         </a>
         <div class="experience-content">
             <h3>Quality-Gating My Own Portfolio</h3>
