@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://brstuder.github.io/portfolio/samples/blog-getting-highly-accurate/">
+        <link rel="canonical" href="https://brstuder.github.io/portfolio/projects/architecture/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>Getting Highly Accurate and Granular Cost Metrics With Kubecost - Brett Studer</title>
+        <title>Architecture Diagram - Brett Studer</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#getting-highly-accurate-and-granular-cost-metrics-with-kubecost" class="md-skip">
+        <a href="#architecture-diagram" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Getting Highly Accurate and Granular Cost Metrics With Kubecost
+              Architecture Diagram
             
           </span>
         </div>
@@ -562,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/homelab/" class="md-nav__link">
+      <a href="../homelab/" class="md-nav__link">
         
   
   
@@ -590,7 +590,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/portfolio-infrastructure/" class="md-nav__link">
+      <a href="../portfolio-infrastructure/" class="md-nav__link">
         
   
   
@@ -618,7 +618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/app-deployment/" class="md-nav__link">
+      <a href="../app-deployment/" class="md-nav__link">
         
   
   
@@ -646,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../projects/bird-boy/" class="md-nav__link">
+      <a href="../bird-boy/" class="md-nav__link">
         
   
   
@@ -696,102 +696,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#harnessing-cloud-provider-on-demand-pricing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Harnessing cloud provider on-demand pricing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud-provider-billing-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud provider billing integration
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reconciliation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Reconciliation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#short-term-cost-estimation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Short-term cost estimation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#catering-to-air-gapped-environments" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Catering to air-gapped environments
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#custom-pricing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Custom pricing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#csv-pricing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CSV pricing
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#closing-thoughts" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Closing thoughts
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -807,56 +711,7 @@
 
 
 
-<h1 id="getting-highly-accurate-and-granular-cost-metrics-with-kubecost">Getting Highly Accurate and Granular Cost Metrics With Kubecost<a class="headerlink" href="#getting-highly-accurate-and-granular-cost-metrics-with-kubecost" title="Permanent link">&para;</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Author's Note</p>
-<p>This is an article I wrote for Kubecost's blog, hosted in Docusaurus. I chose to include this article as a feature showcase of cost saving measures. The live version of this blog post is now hosted on the <a href="https://www.apptio.com/blog/enhancing-cost-accuracy/?src=kc-blog">Apptio website</a>.</p>
-</div>
-<p>In the world of cost monitoring and visibility, having accurate data is vital for businesses. When it comes to managing budgets, avoiding overspending, or enhancing efficiency, getting the most accurate information at your disposal makes all the difference. Kubecost offers several methods to enhance the accuracy of your Kubecost cost metrics. In this blog we explore each method, including the newest method for predicting short-term costs, before they are billed by their cloud service providers (CSPs).</p>
-<h3 id="harnessing-cloud-provider-on-demand-pricing">Harnessing cloud provider on-demand pricing<a class="headerlink" href="#harnessing-cloud-provider-on-demand-pricing" title="Permanent link">&para;</a></h3>
-<p>Without any configuration, Kubecost identifies the cloud service provider (CSP) source of clusters it has been installed on, and can then use public APIs from those CSPs to provide a starting point for its cost metrics. For AWS, this pricing is sourced from their <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-price-list-query-api.html">Price List Query API</a>. For Azure, users must enable this pricing query through <a href="https://docs.kubecost.com/install-and-configure/install/cloud-integration/azure-out-of-cluster/azure-config">configuration of the Billing Rate Card API</a>.</p>
-<p>This initial step serves as a passive, and directionally accurate, foundation for delivering cost insights. However, users can enhance data accuracy by taking additional measures.</p>
-<h3 id="cloud-provider-billing-integration">Cloud provider billing integration<a class="headerlink" href="#cloud-provider-billing-integration" title="Permanent link">&para;</a></h3>
-<p>Upon Kubecost installation, <a href="https://docs.kubecost.com/install-and-configure/install/cloud-integration">integrating billing data with CSPs</a> should be a top priority. This will provide value beyond basic assets tracking, including any cloud services you use beyond just Kubernetes resources. Kubecost provides dedicated integration guides for all three major CSPs as well as additional troubleshooting and support.</p>
-<p><img alt="image" class="dia-light" src="../../images/kubecost/blog1.png" /></p>
-<h3 id="reconciliation">Reconciliation<a class="headerlink" href="#reconciliation" title="Permanent link">&para;</a></h3>
-<p>What’s crucial about cloud integration is that it will enable Kubecost to perform reconciliation, a process that matches in-cluster assets with items found in the billing data pulled from each CSP. This can correct the price, for example, of nodes prices that were previously assumed to be on-demand rates.</p>
-<p>Kubecost’s Allocation and Assets pages have visual support for recognizing unreconciled costs. In the Kubecost UI, select Settings from the left navigation, then under ‘Pricing’, toggle on <em>Highlight Unreconciled Costs</em>, then select <em>Save</em> at the bottom of the page. Your most recent cost data will now be displayed with a hatching effect to distinguish it from reconciled data.</p>
-<p><img alt="image" class="dia-light" src="../../images/kubecost/blog2.png" /></p>
-<p>Reconciliation requires approximately 36-48 hours following resource usage to update accordingly.</p>
-<h3 id="short-term-cost-estimation">Short-term cost estimation<a class="headerlink" href="#short-term-cost-estimation" title="Permanent link">&para;</a></h3>
-<p>After completing reconciliation, Kubecost can then estimate node pricing for the period of time before the billing data is available. This estimation is used on hourly and daily intervals by comparing the past 7 days of actual billed costs.</p>
-<h3 id="catering-to-air-gapped-environments">Catering to air-gapped environments<a class="headerlink" href="#catering-to-air-gapped-environments" title="Permanent link">&para;</a></h3>
-<p>For users who don’t rely largely on CSP infrastructure, you may wonder what pricing features exist for you. Kubecost doesn’t forget about users with air-gapped environments, and makes sure to provide pricing assistance via custom and CSV pricing.</p>
-<h3 id="custom-pricing">Custom pricing<a class="headerlink" href="#custom-pricing" title="Permanent link">&para;</a></h3>
-<p>Kubecost provides a configurable pricing tool known as Custom Pricing, which can be adjusted through the product UI or your <em>values.yaml</em> file. Custom pricing allows you to provide manual monthly pricing values which will override cloud billing data from any APIs, which should be applied before any discounts. This includes values for CPU/GPU/RAM prices, as well as Spot CPU/RAM prices and storage prices.</p>
-<p><img alt="image" class="dia-light" src="../../images/kubecost/blog3.png" /></p>
-<p>To access custom pricing via the Kubecost UI, select the <em>Settings</em> page from the left navigation, then under ‘Pricing’, toggle on <em>Enable Custom Pricing</em>. You can adjust the fields as needed (just remember to select <em>Save</em> at the bottom of the page when finished). You can configure these values in your <em>values.yaml</em> file under the <code>kubecostProductConfigs</code> flag:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>kubecostProductConfigs:
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  customPricesEnabled: true
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  defaultModelPricing:
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    enabled: true
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    CPU: 28.0 # Single core per month cost
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    spotCPU: 4.86 # Single core per month cost
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    RAM: 3.09 # GB per month cost
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    spotRAM: 0.65 # GB per month cost
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    GPU: 693.50 # per month cost
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    spotGPU: 225.0 # per month cost
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    storage: 0.04 # per GB per month cost
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    zoneNetworkEgress: 0.01 # per GB per month cost
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    regionNetworkEgress: 0.01 # per GB per month cost
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    internetNetworkEgress: 0.12 # per GB per month cost
-</span></code></pre></div>
-<p>Once you’ve made your changes, run a <code>helm upgrade</code> command to your Kubecost environment:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>$ helm upgrade kubecost cost-analyzer \
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    --repo https://kubecost.github.io/cost-analyzer/ \
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    --namespace kubecost --create-namespace \
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    --values values.yaml
-</span></code></pre></div>
-<h3 id="csv-pricing">CSV pricing<a class="headerlink" href="#csv-pricing" title="Permanent link">&para;</a></h3>
-<p>CSV pricing is an Enterprise-only (mature beta) feature which allows for further configuration of custom pricing. Using a CSV file, users can provide pricing information for individual assets such as on-prem clusters, or for external enterprise discounts. A complete summary for creating and configuring this CSV file can be found in our <a href="https://docs.kubecost.com/install-and-configure/advanced-configuration/csv-pricing">CSV Pricing doc</a>.</p>
-<h3 id="closing-thoughts">Closing thoughts<a class="headerlink" href="#closing-thoughts" title="Permanent link">&para;</a></h3>
-<p>Kubecost stands as the premier solution for Kubernetes and cloud service cost monitoring, providing unparalleled accuracy and granularity in cost insights. Whether you’re a cloud consumer or operating in air-gapped environments, Kubecost offers tailored features to provide you with the most up-to-date cost insights. If you haven’t used Kubecost before, you can <a href="https://www.kubecost.com/install.html#show-instructions">get started today in minutes</a>.</p>
+<h1 id="architecture-diagram">Architecture Diagram<a class="headerlink" href="#architecture-diagram" title="Permanent link">&para;</a></h1>
 
 
 

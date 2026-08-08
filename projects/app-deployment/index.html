@@ -878,7 +878,7 @@
 <p>This project showcases a full-stack cloud infrastructure build on Google Cloud Platform: deploying a containerized Kubernetes application, layering in Infrastructure-as-Code and CI/CD automation. It was part of a technical assessment I underwent while interviewing for a role at Wiz. I delivered this project, along with a full architectural and security breakdown, to an internal panel as part of that process.</p>
 <p>The project touches the core disciplines expected of a modern cloud/DevOps engineer: compute and network provisioning, Kubernetes deployment and RBAC, IAM and least-privilege reasoning, Infrastructure-as-Code, CI/CD pipeline design, and cloud-native security monitoring. I touched on all these concepts in my presentation, demonstrating the functional app in a live cloud environment.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p><img alt="image" src="../../images/app/arch-diagram.png" /></p>
+<p><img alt="image" class="dia-dark" src="../../images/app/arch-diagram.png" /></p>
 <p>As this architecture diagram shows, the key components of my project include:</p>
 <ul>
 <li>To-do list application ("tasky"), provided as part of the assignment, containerized via a Dockerfile and built into a minimal production image</li>
@@ -894,7 +894,7 @@
 <p>Here is a screenshot of the "tasky" application.</p>
 <p><img alt="image" src="../../images/app/tasks.png" /></p>
 <p>The app persists to-do list items, added by users through its frontend, to a MongoDB server via a database connection string. That MongoDB server writes a full backup to an object storage bucket on daily intervals via an automated cron job. Below is a GCP screenshot which shows a bucket receiving daily backups.</p>
-<p><img alt="image" src="../../images/app/bucket.png" /></p>
+<p><img alt="image" class="dia-dark" src="../../images/app/bucket.png" /></p>
 <h3 id="hosting-app-files">Hosting App Files<a class="headerlink" href="#hosting-app-files" title="Permanent link">&para;</a></h3>
 <p>Here is the private GitHub repository I created. The contents of the repo include:</p>
 <ul>
@@ -903,7 +903,7 @@
 <li>IaC Terraform files</li>
 <li>GitHub Actions workflow <code>.yml</code> files, including environment setup, application build/deploy, and infrastructure teardown</li>
 </ul>
-<p><img alt="image" src="../../images/app/repo.png" /></p>
+<p><img alt="image" class="dia-dark" src="../../images/app/repo.png" /></p>
 <h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
 <p>This project reflects the kind of work that shows up daily in cloud/DevOps environments, and it's a useful reference point for both hands-on infrastructure work and for writing clear technical documentation about that work.</p>
 <p><strong>Infrastructure-as-Code and CI/CD.</strong> I deployed a meaningful portion of this project in Terraform and GitHub Actions workflows. This enables rapid development and destruction of cloud environments, all in one place as opposed to manual, step-by-step configuration of every component, helping projects scale architecture instead of bloating man hours.</p>
