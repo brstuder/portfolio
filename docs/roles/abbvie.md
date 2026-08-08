@@ -12,4 +12,4 @@ During university, I interned at the AbbVie Innovation Center in Urbana-Champaig
 
 Here is an example screenshot of our onboarding portal, which I blurred for proprietary reasons:
 
-![image](../images/abbvie/abbvie.png)
+![image](../images/abbvie/abbvie.png){: .dia-light }

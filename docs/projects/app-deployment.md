@@ -6,7 +6,7 @@ The project touches the core disciplines expected of a modern cloud/DevOps engin
 
 ## Overview
 
-![image](../images/app/arch-diagram.png)
+![image](../images/app/arch-diagram.png){: .dia-dark }
 
 As this architecture diagram shows, the key components of my project include:
 
@@ -27,7 +27,7 @@ Here is a screenshot of the "tasky" application.
 
 The app persists to-do list items, added by users through its frontend, to a MongoDB server via a database connection string. That MongoDB server writes a full backup to an object storage bucket on daily intervals via an automated cron job. Below is a GCP screenshot which shows a bucket receiving daily backups.
 
-![image](../images/app/bucket.png)
+![image](../images/app/bucket.png){: .dia-dark }
 
 ### Hosting App Files
 
@@ -38,7 +38,7 @@ Here is the private GitHub repository I created. The contents of the repo includ
 * IaC Terraform files
 * GitHub Actions workflow `.yml` files, including environment setup, application build/deploy, and infrastructure teardown
 
-![image](../images/app/repo.png)
+![image](../images/app/repo.png){: .dia-dark }
 
 ## Key Takeaways
 
