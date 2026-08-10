@@ -680,6 +680,29 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#other-tooling-and-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Tooling and Functionality
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Tooling and Functionality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#status-monitoring-with-htop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status Monitoring with htop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#ad-blocking-for-local-devices" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -687,6 +710,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -880,6 +908,29 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#other-tooling-and-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Tooling and Functionality
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Tooling and Functionality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#status-monitoring-with-htop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status Monitoring with htop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#ad-blocking-for-local-devices" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -887,6 +938,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -933,12 +989,15 @@
 <h2 id="repurposing-old-hardware">Repurposing Old Hardware<a class="headerlink" href="#repurposing-old-hardware" title="Permanent link">&para;</a></h2>
 <p>I started by wiping the device completely and installing an Ubuntu LTS 26.04 server. My plan was to leave the server running while the laptop remained shut and tucked away (as it already had been up to this point). It would make the perfect foundation for a collection of small, self-hosted services including media and gaming servers. This project became a practical exercise in Linux administration, home networking, and the kind of layered security thinking that's expected of anyone exposing a personal server to the public internet. I configured the machine to run headless, lid closed, where it could be remotely accessed through my desktop, and from there, I was free to start building, and my first project was a standard Minecraft server.</p>
 <h2 id="standing-up-the-gaming-server">Standing Up the Gaming Server<a class="headerlink" href="#standing-up-the-gaming-server" title="Permanent link">&para;</a></h2>
-<p>With a stable, always-on Linux host in place, I containerized a Minecraft server using Docker Compose. This made it trivial to persist world data across rebuilds, set resource limits appropriate for the hardware, and configure automatic restarts so the server recovers cleanly after a reboot or outage.</p>
+<p>With a stable, always-on Linux host in place, I containerized a Minecraft server using Docker Compose. This made it trivial to persist world data across rebuilds, set resource limits appropriate for the hardware, and configure automatic restarts so the server recovers cleanly after a reboot or outage. The server is set to a max usage of 4 GB, and during testing with multiple players, stayed within this limitation without any noticeable performance issues.</p>
 <h3 id="exposing-a-home-server-safely">Exposing a Home Server Safely<a class="headerlink" href="#exposing-a-home-server-safely" title="Permanent link">&para;</a></h3>
 <p>In order to let friends outside my network access the server, I had to take proper precaution to ensure my network wasn't haphazardly being exposed to the outside world. I opted for direct port forwarding, paired with dynamic DNS so the server stays reachable even when the ISP changes the public IP.</p>
 <h3 id="a-layered-security-approach">A Layered Security Approach<a class="headerlink" href="#a-layered-security-approach" title="Permanent link">&para;</a></h3>
 <p>Opening a port to the internet means accepting it will be found and probed automatically, so I treated security as overlapping layers rather than one control. At the router, the exposed port was deliberately different from the game's default. On the host, a firewall denied all incoming traffic by default, SSH access was switched entirely to key-based authentication, and an intrusion-prevention tool auto-blocked hosts showing repeated failed logins. At the application layer, only pre-approved accounts can join via whitelisting, and Minecraft's ownership verification blocks spoofed logins even from a valid-looking username. Automated, rolling daily backups guard against data loss from any failure in the other layers.</p>
-<h2 id="ad-blocking-for-local-devices">Ad-Blocking for Local Devices<a class="headerlink" href="#ad-blocking-for-local-devices" title="Permanent link">&para;</a></h2>
+<h2 id="other-tooling-and-functionality">Other Tooling and Functionality<a class="headerlink" href="#other-tooling-and-functionality" title="Permanent link">&para;</a></h2>
+<h3 id="status-monitoring-with-htop">Status Monitoring with htop<a class="headerlink" href="#status-monitoring-with-htop" title="Permanent link">&para;</a></h3>
+<p>Htop is an interactive process viewer similar to Windows' Task Manager. With htop, I can keep a closer eye on the server's CPU and memory consumption, ensuring we stay within the constraints of our hardware, and ensure excess consumption does not create performance problems.</p>
+<h3 id="ad-blocking-for-local-devices">Ad-Blocking for Local Devices<a class="headerlink" href="#ad-blocking-for-local-devices" title="Permanent link">&para;</a></h3>
 <p>By deploying a Pi-hole container image through my homelab, I can configure DNS connectivity for individual devices in my network to block ads. Pi-hole is very lightweight, especially for only managing a couple specific devices in my network, and can run with the limited memory of my hardware.</p>
 <h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
 <p>This project reinforced that self-hosting isn't just about getting a service running, it's about reasoning through what happens once it's reachable from the open internet. Troubleshooting both common and subtle errors along the way, weighing trade-offs of opposing security measures, and building defense-in-depth around a genuinely exposed service are the same fundamentals that show up in production infrastructure work, just at homelab scale.</p>
