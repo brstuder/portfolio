@@ -990,6 +990,33 @@
 <p>I started by wiping the device completely and installing an Ubuntu LTS 26.04 server. My plan was to leave the server running while the laptop remained shut and tucked away (as it already had been up to this point). It would make the perfect foundation for a collection of small, self-hosted services including media and gaming servers. This project became a practical exercise in Linux administration, home networking, and the kind of layered security thinking that's expected of anyone exposing a personal server to the public internet. I configured the machine to run headless, lid closed, where it could be remotely accessed through my desktop, and from there, I was free to start building, and my first project was a standard Minecraft server.</p>
 <h2 id="standing-up-the-gaming-server">Standing Up the Gaming Server<a class="headerlink" href="#standing-up-the-gaming-server" title="Permanent link">&para;</a></h2>
 <p>With a stable, always-on Linux host in place, I containerized a Minecraft server using Docker Compose. This made it trivial to persist world data across rebuilds, set resource limits appropriate for the hardware, and configure automatic restarts so the server recovers cleanly after a reboot or outage. The server is set to a max usage of 4 GB, and during testing with multiple players, stayed within this limitation without any noticeable performance issues.</p>
+<p>This is the working container image:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>services:
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  minecraft:
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    image: itzg/minecraft-server
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    container_name: minecraft
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    ports:
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>      - &quot;XXXXX:XXXXX&quot; # Hiding the ports for security reasons
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    environment:
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>      EULA: &quot;TRUE&quot;
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>      TYPE: &quot;NEOFORGE&quot;
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>      VERSION: &quot;26.2&quot;
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>      MEMORY: &quot;4G&quot; # Limitation on memory usage to ensure server does not impact other services
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>      DIFFICULTY: &quot;hard&quot;
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>      MAX_PLAYERS: &quot;16&quot;
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>      OPS: &quot;my_username&quot; # Admin privileges to my account
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>      ENFORCE_WHITELIST: &quot;TRUE&quot;
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>      WHITELIST: &quot;my_username,friend_username1,friend_username2,friend_username3&quot;
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>      ENABLE_RCON: &quot;true&quot;
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>      RCON_PASSWORD: &quot;XXXXXX&quot;
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>      SEED: &quot;869159556220025427&quot;
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>    volumes:
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>      - ./data:/data
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>      - ./mods:/data/mods # Leverages a few server-side mods (requiring no client-side configuration)
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>    restart: unless-stopped
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>    stdin_open: true
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>    tty: true
+</span></code></pre></div>
 <h3 id="exposing-a-home-server-safely">Exposing a Home Server Safely<a class="headerlink" href="#exposing-a-home-server-safely" title="Permanent link">&para;</a></h3>
 <p>In order to let friends outside my network access the server, I had to take proper precaution to ensure my network wasn't haphazardly being exposed to the outside world. I opted for direct port forwarding, paired with dynamic DNS so the server stays reachable even when the ISP changes the public IP.</p>
 <h3 id="a-layered-security-approach">A Layered Security Approach<a class="headerlink" href="#a-layered-security-approach" title="Permanent link">&para;</a></h3>
