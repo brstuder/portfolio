@@ -21,6 +21,36 @@ I started by wiping the device completely and installing an Ubuntu LTS 26.04 ser
 
 With a stable, always-on Linux host in place, I containerized a Minecraft server using Docker Compose. This made it trivial to persist world data across rebuilds, set resource limits appropriate for the hardware, and configure automatic restarts so the server recovers cleanly after a reboot or outage. The server is set to a max usage of 4 GB, and during testing with multiple players, stayed within this limitation without any noticeable performance issues.
 
+This is the working container image:
+
+```
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: minecraft
+    ports:
+      - "XXXXX:XXXXX" # Hiding the ports for security reasons
+    environment:
+      EULA: "TRUE"
+      TYPE: "NEOFORGE"
+      VERSION: "26.2"
+      MEMORY: "4G" # Limitation on memory usage to ensure server does not impact other services
+      DIFFICULTY: "hard"
+      MAX_PLAYERS: "16"
+      OPS: "my_username" # Admin privileges to my account
+      ENFORCE_WHITELIST: "TRUE"
+      WHITELIST: "my_username,friend_username1,friend_username2,friend_username3"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "XXXXXX"
+      SEED: "869159556220025427"
+    volumes:
+      - ./data:/data
+      - ./mods:/data/mods # Leverages a few server-side mods (requiring no client-side configuration)
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+```
+
 ### Exposing a Home Server Safely
 
 In order to let friends outside my network access the server, I had to take proper precaution to ensure my network wasn't haphazardly being exposed to the outside world. I opted for direct port forwarding, paired with dynamic DNS so the server stays reachable even when the ISP changes the public IP.
