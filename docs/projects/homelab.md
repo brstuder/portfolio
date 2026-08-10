@@ -19,7 +19,7 @@ I started by wiping the device completely and installing an Ubuntu LTS 26.04 ser
 
 ## Standing Up the Gaming Server
 
-With a stable, always-on Linux host in place, I containerized a Minecraft server using Docker Compose. This made it trivial to persist world data across rebuilds, set resource limits appropriate for the hardware, and configure automatic restarts so the server recovers cleanly after a reboot or outage.
+With a stable, always-on Linux host in place, I containerized a Minecraft server using Docker Compose. This made it trivial to persist world data across rebuilds, set resource limits appropriate for the hardware, and configure automatic restarts so the server recovers cleanly after a reboot or outage. The server is set to a max usage of 4 GB, and during testing with multiple players, stayed within this limitation without any noticeable performance issues.
 
 ### Exposing a Home Server Safely
 
@@ -29,7 +29,13 @@ In order to let friends outside my network access the server, I had to take prop
 
 Opening a port to the internet means accepting it will be found and probed automatically, so I treated security as overlapping layers rather than one control. At the router, the exposed port was deliberately different from the game's default. On the host, a firewall denied all incoming traffic by default, SSH access was switched entirely to key-based authentication, and an intrusion-prevention tool auto-blocked hosts showing repeated failed logins. At the application layer, only pre-approved accounts can join via whitelisting, and Minecraft's ownership verification blocks spoofed logins even from a valid-looking username. Automated, rolling daily backups guard against data loss from any failure in the other layers.
 
-## Ad-Blocking for Local Devices
+## Other Tooling and Functionality
+
+### Status Monitoring with htop
+
+Htop is an interactive process viewer similar to Windows' Task Manager. With htop, I can keep a closer eye on the server's CPU and memory consumption, ensuring we stay within the constraints of our hardware, and ensure excess consumption does not create performance problems.
+
+### Ad-Blocking for Local Devices
 
 By deploying a Pi-hole container image through my homelab, I can configure DNS connectivity for individual devices in my network to block ads. Pi-hole is very lightweight, especially for only managing a couple specific devices in my network, and can run with the limited memory of my hardware.
 
