@@ -63,7 +63,7 @@ Opening a port to the internet means accepting it will be found and probed autom
 
 ### Status Monitoring with htop
 
-Htop is an interactive process viewer similar to Windows' Task Manager. With htop, I can keep a closer eye on the server's CPU and memory consumption, ensuring we stay within the constraints of our hardware, and ensure excess consumption does not create performance problems.
+Htop is an interactive process viewer similar to Windows' Task Manager. With htop, I can keep a closer eye on the server's CPU and memory consumption, ensuring I stay within the constraints of my hardware, and that excess consumption does not create performance problems.
 
 ### Ad-Blocking for Local Devices
 
