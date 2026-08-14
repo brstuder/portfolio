@@ -880,7 +880,7 @@
 </tr>
 </tbody>
 </table>
-<p>Most recently I served as the solo technical writer at Arine (uh-<em>REEN</em>), a healthcare optimization platform for pharmacists, clinicians, and other medical professionals. We consider our documentation proprietary, so I'm unable to share any direct writing samples here. However, I can still freely discuss my professional work more broadly.</p>
+<p>Most recently I served as the solo technical writer at Arine (uh-<em>REEN</em>), a healthcare optimization platform for pharmacists, clinicians, and other medical professionals. For proprietary reasons, I'm unable to share any direct writing samples here. However, I can still freely discuss my professional work more broadly.</p>
 <h2 id="key-projects-and-responsibilities">Key Projects and Responsibilities<a class="headerlink" href="#key-projects-and-responsibilities" title="Permanent link">&para;</a></h2>
 <h3 id="migration-to-document360">Migration to Document360<a class="headerlink" href="#migration-to-document360" title="Permanent link">&para;</a></h3>
 <p>Moving Arine's documentation out of static PDFs into a living knowledge base was not an easy accomplishment. The KB team eventually selected Document360 as a content management system to handle the total turnaround for product docs. Our documentation is closed-source, which means coordination with our full-stack engineering team was necessary to build out the proper user authentication.</p>
@@ -903,6 +903,27 @@
 <li>Determine areas of content which would need rewrites based on proposed new feature functionality (read from Jira tickets)</li>
 <li>Identify excessively wordy or misformatted content, indicating where content could be reformatted for readability</li>
 </ul>
+<p>I've recreated the file structure for this project, which would look like:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docs/
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── CLAUDE.md                          # Agent identity, workflow rules, when to invoke each skill
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├── .claude/
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   └── skills/
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│       ├── jira-ticket-analysis/
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│       │   ├── SKILL.md               # Parse ticket → extract feature changes → map to affected docs
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│       │   └── references/
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│       │       ├── ticket-parsing.md  # Handling pasted text vs. fetched links; field priority
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│       │       └── impact-mapping.md  # Rules for tracing a change to the pages it touches
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│       └── documentation-rewriting/
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│           ├── SKILL.md               # Draft changes from the analysis output; never edits unread files
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│           └── references/
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│               ├── rewrite-patterns.md    # Add/modify/deprecate patterns, UI-label conventions
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│               └── review-checklist.md    # Pre-output pass: style guide, terminology, formatting
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>├── reference/
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   └── style-guide.md                 # Single source of truth; both skills read from here
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>└── docs/                              # The full local documentation base, raw Markdown (not displayed for proprietary reasons)
+</span></code></pre></div>
 
 
 
