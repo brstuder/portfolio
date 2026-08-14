@@ -9,7 +9,7 @@
 | Points of contact | Knowledge Base (KB) team, product managers, technical product managers |
 | Target audience | Clinicians, pharmacists, and other healthcare professionals |
 
-Most recently I served as the solo technical writer at Arine (uh-*REEN*), a healthcare optimization platform for pharmacists, clinicians, and other medical professionals. We consider our documentation proprietary, so I'm unable to share any direct writing samples here. However, I can still freely discuss my professional work more broadly.
+Most recently I served as the solo technical writer at Arine (uh-*REEN*), a healthcare optimization platform for pharmacists, clinicians, and other medical professionals. For proprietary reasons, I'm unable to share any direct writing samples here. However, I can still freely discuss my professional work more broadly.
 
 ## Key Projects and Responsibilities
 
@@ -36,3 +36,28 @@ With this, Claude was able to read through our existing documentation, and perfo
 * Find existing content that did not conform to our style guide
 * Determine areas of content which would need rewrites based on proposed new feature functionality (read from Jira tickets)
 * Identify excessively wordy or misformatted content, indicating where content could be reformatted for readability
+
+I've recreated the file structure for this project, which would look like:
+
+```
+docs/
+├── CLAUDE.md                          # Agent identity, workflow rules, when to invoke each skill
+├── .claude/
+│   └── skills/
+│       ├── jira-ticket-analysis/
+│       │   ├── SKILL.md               # Parse ticket → extract feature changes → map to affected docs
+│       │   └── references/
+│       │       ├── ticket-parsing.md  # Handling pasted text vs. fetched links; field priority
+│       │       └── impact-mapping.md  # Rules for tracing a change to the pages it touches
+│       └── documentation-rewriting/
+│           ├── SKILL.md               # Draft changes from the analysis output; never edits unread files
+│           └── references/
+│               ├── rewrite-patterns.md    # Add/modify/deprecate patterns, UI-label conventions
+│               └── review-checklist.md    # Pre-output pass: style guide, terminology, formatting
+│
+├── reference/
+│   └── style-guide.md                 # Single source of truth; both skills read from here
+│
+└── docs/                              # The full local documentation base, raw Markdown (not displayed for proprietary reasons)
+
+```
