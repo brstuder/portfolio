@@ -57,6 +57,16 @@
 
 <div class="experience-container">
     <div class="experience-card">
+        <a href="../projects/video-script/" class="experience-icon">
+            <img src="../images/icons/youtube.png" alt="YouTube">
+        </a>
+        <div class="experience-content">
+            <h3>Modular AI-Leveraged Video Script Library</h3>
+            <h4>August 2026</h4>
+            <p>File-based project structure to support AI-leveraged video script generation and text-to-speech, including an end-to-end publishing process.</p>
+        </div>
+    </div>
+    <div class="experience-card">
         <a href="../projects/homelab/" class="experience-icon">
             <img src="../images/icons/ubuntu.png" alt="Ubuntu">
         </a>
