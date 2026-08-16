@@ -59,5 +59,4 @@ docs/
 │   └── style-guide.md                 # Single source of truth; both skills read from here
 │
 └── docs/                              # The full local documentation base, raw Markdown (not displayed for proprietary reasons)
-
 ```

@@ -95,6 +95,7 @@ nav:
       - OpenMRS Fellowship for Google Season of Docs: roles/openmrs.md
       - AbbVie Innovation Center Internship: roles/abbvie.md
   - Projects:
+      - Modular AI-Leveraged Video Script Library: projects/video-script.md
       - Bare-Metal Linux Homelab with Gaming Server: projects/homelab.md
       - Quality-Gating My Own Portfolio: projects/portfolio-infrastructure.md
       - Full-Stack App Deployment with GCP: projects/app-deployment.md

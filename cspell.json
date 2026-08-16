@@ -95,6 +95,9 @@
     "interactable",
     "sitewide",
     "daemonset",
-    "obligately"
+    "obligately",
+    "homelab",
+    "Kokoro",
+    "Kdenlive",
   ]
 }
