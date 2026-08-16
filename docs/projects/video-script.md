@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project consists of a modular file structur and Python script designed to support organizations which want consistent language use, vocabulary, or broader narratives or brand messaging applied to all of their video content in a streamlined, centralized methodology. Video assets including scripts, audio, and image stills, are all compiled into the project structure to support updates as needed to individual elements.
+This project consists of a modular file structure and Python script designed to support organizations which want consistent language use, vocabulary, or broader narratives or brand messaging applied to all of their video content in a streamlined, centralized methodology. Video assets including scripts, audio, and image stills, are all compiled into the project to support updates as needed to individual elements.
 
 This was not designed to be an entirely automated process. It still requires manual, hands-on involvement depending on the degree of precision or quality that an user requires.
 

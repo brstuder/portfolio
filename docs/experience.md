@@ -62,7 +62,6 @@
         </a>
         <div class="experience-content">
             <h3>Modular AI-Leveraged Video Script Library</h3>
-            <h4>August 2026</h4>
             <p>File-based project structure to support AI-leveraged video script generation and text-to-speech, including an end-to-end publishing process.</p>
         </div>
     </div>
@@ -72,7 +71,6 @@
         </a>
         <div class="experience-content">
             <h3>Bare-Metal Linux Homelab with Gaming Server</h3>
-            <h4>August 2026</h4>
             <p>Repurposed an old laptop into an headless Ubuntu server, containerizing a gaming server with Docker and exposing it to friends via port forwarding and dynamic DNS. Configured host firewall, key-based SSH, intrusion prevention, and automated backups.</p>
         </div>
     </div>
@@ -82,7 +80,6 @@
         </a>
         <div class="experience-content">
             <h3>Quality-Gating My Own Portfolio</h3>
-            <h4>August 2026</h4>
             <p>Built a docs-as-code CI/CD pipeline for this MkDocs portfolio using automated jobs via GitHub Actions on every pull request, plus automated per-PR preview deploys.</p>
         </div>
     </div>
@@ -92,7 +89,6 @@
         </a>
         <div class="experience-content">
             <h3>Full-Stack App Deployment with GCP</i></h3>
-            <h4>July 2026</h4>
             <p>Deployed a containerized to-do app to a private GKE cluster using Terraform for IaC and GitHub Actions for CI/CD, with a GCP-hosted MongoDB backend and automated object-storage backups. Presented the full architecture and security reasoning to a technical panel as part of a Wiz interview assessment.</p>
         </div>
     </div>
@@ -102,7 +98,6 @@
         </a>
         <div class="experience-content">
             <h3>FitNotes, <i>Documentation Contributor</i></h3>
-            <h4>May 2026</h4>
             <p>Updated MkDocs web documentation for iOS workout app I personally use after meeting with the app's support team. Changes include updated contact info, streamlined release notes, and standardized language.</p>
         </div>
     </div>
@@ -112,7 +107,6 @@
         </a>
         <div class="experience-content">
             <h3>Bird-Boy Product Showcase</h3>
-            <h4>February 2026</h4>
             <p>Designed and built a full product site in Docusaurus for a conceptual outdoor-navigation handheld device, generating product renders and lifestyle photography with Google Gemini and Adobe Photoshop, and building the landing page with Figma and Claude Code. Includes technical docs, blog, style guide, and brand mission statement.</p>
         </div>
     </div>
