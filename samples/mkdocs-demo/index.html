@@ -845,11 +845,11 @@
 <p>There are several additions to our code blocks we can make that improve their display and interactability.</p>
 <h3 id="color-coding">Color Coding<a class="headerlink" href="#color-coding" title="Permanent link">&para;</a></h3>
 <p>In order for code blocks to display with color-coded syntax, we must tell MkDocs what type of content is being to our code block. In this example, we're adding color coding to an example of Python code like:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World!&quot;</span><span class="p">)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, World!"</span><span class="p">)</span>
 </span></code></pre></div>
 <p>This is written by using the code or syntax shorthand in the top row of backticks that creates the code block:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>```py
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>print(&quot;Hello, World!&quot;)
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>print("Hello, World!")
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>```
 </span></code></pre></div>
 <p>We use <code>py</code> as shorthand for Python, but this also supports <code>html</code>, <code>css</code>, <code>yaml</code>, <code>json</code>, and other formats we may need to display. We will continue to use this method throughout the article with different formats to better demonstrate.</p>
@@ -862,10 +862,10 @@
 <h3 id="adding-titles-to-code-blocks">Adding Titles to Code Blocks<a class="headerlink" href="#adding-titles-to-code-blocks" title="Permanent link">&para;</a></h3>
 <p>We've made some great additions to our code blocks, but now suppose we want to add more context to our code blocks. This can be useful for labeling API payloads by their response code, for example:</p>
 <div class="language-text highlight"><span class="filename">404: Not Found</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>{
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  &quot;status&quot;: 404,
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  &quot;error&quot;: &quot;Not Found&quot;,
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  &quot;message&quot;: &quot;The requested resource was not found on this server.&quot;,
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  &quot;path&quot;: &quot;/brett/fake-api&quot;
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  "status": 404,
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  "error": "Not Found",
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  "message": "The requested resource was not found on this server.",
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  "path": "/brett/fake-api"
 </span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>}
 </span></code></pre></div>
 <p>A title can be added at the top of your code block by adding <code>title="Name of Code Block"</code>.</p>
@@ -875,7 +875,7 @@
 <p>Here is an example of content that is hidden within an interactable tab.</p>
 </details>
 <p>Collapsible tabs are supported by MkDocs Material, a powerful MkDocs theme, by default. Collapsible tabs can be formatted in your article like:</p>
-<div class="language-text highlight"><span class="filename">Collapsible Tab Template</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>??? &quot;Here is a collapsible tab!&quot;
+<div class="language-text highlight"><span class="filename">Collapsible Tab Template</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>??? "Here is a collapsible tab!"
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    Here is an example of content that is hidden within an interactable tab.
 </span></code></pre></div>
