@@ -2,7 +2,7 @@
 
 This homelab project was a personal favorite for me, getting to learn key development tooling in a hands-on, real-world use case. I dug out my old college laptop, which had been gathering dust for several years now, and decided it would make the perfect sample for this project.
 
-![image](../images/projects/server-diagram.png){: .dia-dark }
+![image](../images/projects/homelab-diagram.svg){: .dia-dark }
 
 This diagram represents all the key components of the project and their interactions:
 
