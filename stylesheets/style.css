@@ -135,7 +135,7 @@ table thead {
 /* Light-authored assets (dark lines on a light/transparent background) —
    invert them when the site is in dark mode */
 [data-md-color-scheme="slate"] .md-content img.dia-light {
-  filter: invert(85%) hue-rotate(180deg);
+  filter: invert(100%) hue-rotate(180deg);
 }
 
 /* Dark-authored assets (light lines on a dark background) — invert them
