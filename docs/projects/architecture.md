@@ -29,7 +29,7 @@ As an additional visual component which requires consistent color and style outp
 
 [Diagrams I generated for Kubecost](../samples/diagrams.md) now appear on [IBM's web domain](https://www.ibm.com/docs/en/kubecost/self-hosted/3.x?topic=kubecost-core-architecture-overview), with this filter applied post-acquisition. It applies across all images on the site, including architecture diagrams and UI screenshots. I reverse engineered the process with Claude, and adapted it to my own website via CSS. This implementation is manual per image, not applied sitewide (there are lots of images in my portfolio which are not suited well against this process).
 
-The solution involves this additon to `style.css` which establishes inversion, but also includes hue rotation for color elements (which are plentiful in these architecture diagrams):
+The solution involves this addition to `style.css` which establishes inversion, but also includes hue rotation for color elements (which are plentiful in these architecture diagrams):
 
 ``` title="style.css"
 [data-md-color-scheme="slate"] .md-content img.dia-light {
