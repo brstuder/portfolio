@@ -1,0 +1,3 @@
+# Built diagrams embed the font and icons as base64, so every rebuild rewrites
+# the whole file. Suppress the diff noise; the source of truth is diagrams/src/.
+docs/images/diagrams/*.svg -diff linguist-generated=true

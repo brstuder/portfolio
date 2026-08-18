@@ -1,0 +1,4 @@
+# Build-time only. Not needed to serve or deploy the site.
+# Used by .claude/skills/architecture-diagram/resources/{build,make_metrics}.py
+fonttools>=4.50
+brotli>=1.1
