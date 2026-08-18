@@ -1,4 +1,4 @@
-# Scalable Architecture Diagrams Wrapper with Claude
+# Scalable Architecture Diagrams with Excalidraw and Claude
 
 Similar to my project on [video script generation](video-script.md), I wanted to experiment with a modular file system to support content generation, this time focusing on a visual process, architecture diagrams.
 

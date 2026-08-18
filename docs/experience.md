@@ -58,7 +58,7 @@
 <div class="experience-container">
     <div class="experience-card">
         <a href="../projects/architecture/" class="experience-icon">
-            <img src="../images/icons/excalidraw.png" alt="Scalable Architecture Diagrams with Claude">
+            <img src="../images/icons/excalidraw.png" alt="Scalable Architecture Diagrams with Excalidraw and Claude">
         </a>
         <div class="experience-content">
             <h3>Scalable Architecture Diagrams with Claude</h3>
