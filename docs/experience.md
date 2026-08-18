@@ -61,7 +61,7 @@
             <img src="../images/icons/excalidraw.png" alt="Scalable Architecture Diagrams with Excalidraw and Claude">
         </a>
         <div class="experience-content">
-            <h3>Scalable Architecture Diagrams with Claude</h3>
+            <h3>Scalable Architecture Diagrams with Excalidraw and Claude</h3>
             <p>Architecture diagram pipeline via Claude which includes responsive light/dark mode mapping.</p>
         </div>
     </div>
