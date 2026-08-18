@@ -57,6 +57,15 @@
 
 <div class="experience-container">
     <div class="experience-card">
+        <a href="../projects/architecture/" class="experience-icon">
+            <img src="../images/icons/excalidraw.png" alt="Scalable Architecture Diagrams with Excalidraw and Claude">
+        </a>
+        <div class="experience-content">
+            <h3>Scalable Architecture Diagrams with Excalidraw and Claude</h3>
+            <p>Architecture diagram pipeline via Claude which includes responsive light/dark mode mapping.</p>
+        </div>
+    </div>
+    <div class="experience-card">
         <a href="../projects/video-script/" class="experience-icon">
             <img src="../images/icons/youtube.png" alt="YouTube">
         </a>

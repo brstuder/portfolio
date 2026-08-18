@@ -17,6 +17,10 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 #   - merlin.allaboutbirds.org 403s CI IP ranges
 #   - crunchbase.com intermittently 403s automated requests
 #   - the GCP console has a known HTTP/2 handshake issue with automated clients
+#   - docs.kubecost.com now redirects to an ibm.com page served via Akamai,
+#     whose edge WAF 403s requests from cloud/datacenter IP ranges (including
+#     GitHub Actions runners) regardless of user agent, while allowing
+#     residential IPs through — so it 403s in CI but loads fine in a browser
 # The last entry excludes the site's own canonical/self-referencing URLs
 # (e.g. mkdocs-material's <link rel="canonical">), since a page added or
 # moved in a PR won't exist on the live deployment until the PR merges —
@@ -30,6 +34,7 @@ exclude = [
   "^https?://merlin\\.allaboutbirds\\.org",
   "^https?://(www\\.)?crunchbase\\.com",
   "^https?://console\\.cloud\\.google\\.com",
+  "^https?://docs\\.kubecost\\.com",
   "^https?://brstuder\\.github\\.io/portfolio/",
 ]
 

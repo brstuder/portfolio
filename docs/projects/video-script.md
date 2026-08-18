@@ -1,6 +1,8 @@
 # Modular AI-Leveraged Video Script Library
 
-## Overview
+## Overview and Key Use Case
+
+While companies are attempting to leverage AI to handle instructional or education video output, I have gotten to speak to several managers and project owners about their existing workflow. Many are moving to closed source, enterprise solutions like Synthesia, needing out of the box functionality on day one. Understandable. But for many of these teams, products and industries change. For seamless, responsive updating, the content needs to be modular and scalable. When I asked these same stakeholders how they are managing those qualities of their knowledge bases, a resounding answer escapes them. This approach helps address that.
 
 This project consists of a modular file structure and Python script designed to support organizations which want consistent language use, vocabulary, or broader narratives or brand messaging applied to all of their video content in a streamlined, centralized methodology. Video assets including scripts, audio, and image stills, are all compiled into the project to support updates as needed to individual elements.
 
