@@ -6,7 +6,7 @@ The project touches the core disciplines expected of a modern cloud/DevOps engin
 
 ## Overview
 
-![image](../images/app/arch-diagram.png){: .dia-dark }
+![image](../images/diagrams/tasky-gcp-deploy.svg){: .dia-dark }
 
 As this architecture diagram shows, the key components of my project include:
 

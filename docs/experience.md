@@ -2,6 +2,14 @@
 
 <div class="experience-container">
     <div class="experience-card">
+        <img src="../images/icons/quest.png" alt="Quest" class="experience-icon">
+        <div class="experience-content">
+            <h3>Quest Diagnostics, <i>Senior Technical Writer</i></h3>
+            <h4>September 2026 - Present</h4>
+            <p>Senior-level writer handling maintenance of HL7 and FHIR specification manuals to assist in client integration of Quest Diagnostics order and results databases.</p>
+        </div>
+    </div>
+    <div class="experience-card">
         <a href="../roles/arine/" class="experience-icon">
             <img src="../images/icons/arine-icon.png" alt="Arine">
         </a>
