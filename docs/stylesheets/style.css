@@ -53,6 +53,7 @@ table thead {
     background-color: #ffffff;
     border: 2px solid #d0d0d0;
     border-radius: 0.5rem;
+    object-fit: contain;
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
